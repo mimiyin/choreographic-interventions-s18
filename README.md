@@ -197,7 +197,7 @@ We will evaluate the strengths and weaknesses of the various sensing technologie
 
 The course is cross-listed with the Tisch Dance MFA department. All assignments will be collaborations between ITP and Tisch Dance students. The class will culminate in a final showing.
 
-## Pre-requesites
+## Pre-requisites
 The course is intended both for anyone looking to deepen their practice in working with movement-based interaction regardless of previous experience with movement technique or programming.
 
 As a result, there is no pre-requisite for dance and no pre-requisite for code.

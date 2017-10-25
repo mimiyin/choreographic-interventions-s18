@@ -183,7 +183,9 @@ Workshop and user-test final project ideas.
 ## Showing: Week 12
 
 # Course Description
-Even where there is no connection between 2 events, if they happen at the same time, in the same space, we find relationships nonetheless. So then what is the point of hooking up dancers to sensing devices to connect them to various media if the relationships already exist in our minds? Simply seeing a cause-and-effect relationship between movement (input) and media (output) is not enough.
+Even where there is no connection between 2 events, if they happen at the same time, in the same space, we find relationships nonetheless. 
+
+So then what is the point of hooking up dancers to sensing devices to connect them to various media if the relationships already exist in our minds? Simply seeing a cause-and-effect relationship between movement (input) and media (output) is not enough.
 
 This course re-conceives interactive media as a form of choreographic intervention. Instead of asking how dancers can control media, we will turn the tables to ask how interactive systems can influence movement. How do you make someone feel soft inside? How do you shake an entire room? How do you orchestrate duets between strangers?
 

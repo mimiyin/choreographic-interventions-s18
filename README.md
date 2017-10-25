@@ -1,0 +1,217 @@
+# Syllabus - Work in Progress
+
+- Spring 2016, Mondays, 7PM-9:30PM in Studio 1 @[111 2nd Avenue](https://goo.gl/maps/FfVoDSMxNSN2)
+- Mimi Yin, mimi.yin@nyu.edu
+- [Office Hours Signup](https://itp.nyu.edu/inwiki/Signup/Mimi)
+
+### Course Structure | [See introductory description below.](#course-description)
+Over the course of the semester, we will cover 4 topic areas that correspond to 4 parameters of choreography: Pathways, Form + Substance, Space and Timing + Pacing. Topics will be introduced through movement-based improvisation exercises. Computational strategies will be examined through code examples. For each topic, students will create a small movement study in 2 stages: the first analog, the second computational with the aim of fully exploring how technology "intervened" and changed the choreographic process.
+
+The class will culminate in a showing of student work. Final projects can either be in the form of a tool to aid in movement practice, an interactive installation or a live performance.
+
+Because course topics are organized around movement concepts, technical topics will be introduced and built upon week to week.
+- What do cameras see? RGB, IR, Kinect, Mocap...
+- Skeletons, Depth Maps and Silhouettes
+- Basic programming concepts: Variables, Conditionals, Loops, Arrays
+- 2D v. 3D
+- Drawing and animation
+- Random, noise, oscillation, easing, etc.
+- Calculating velocity and acceleration
+- Mapping values
+- Manipulating text, sound and live image processing
+
+"Soft Skills" we will practice:
+- Sketching (as in drawing on paper) choreographic ideas.
+- Defining rule sets for movement.
+- Defining rules of interaction.
+- Deconstructing choreography into parameters for code.
+- Extracting choreographic ideas from code.
+
+### Programming Resources
+- [p5.js](http://p5js.org/) | [Reference](http://p5js.org/reference/) | [Web Editor](http://alpha.editor.p5js.org/)
+- [Coding Rainbow](http://thecodingtrain.com/)
+- [Atom Editor](https://github.com/mimiyin/sense-me-move-me/wiki/Atom)
+- [Kinectron](https://github.com/lisajamhoury/kinectron)
+- [The Nature of Code Book](http://natureofcode.com/book/)
+
+### Dance + Movement Resources
+- Select chapters from [The Viewpoints Book](http://www.amazon.com/The-Viewpoints-Book-Practical-Composition/dp/1559362413) | [PDF](http://www.bam.org/media/4813887/anne-bogart-and-tina-landau-the-viewpoints-book.pdf)
+- Select chapters from [Dynamic Alignment Through Imagery](http://www.amazon.com/Dynamic-Alignment-Through-Imagery-Edition/dp/0736067892) | [Google Books](https://books.google.com/books?id=CBwV_g8DhEMC&lpg=PA2&ots=nRQ2JS3SWv&dq=dynamic%20alignment%20chapters&pg=PP1#v=onepage&q&f=false)
+- [Forsythe Technique Videos on Youtube](https://www.youtube.com/user/GrandpaSafari/videos)
+-
+
+### Dance students checking stuff out of ITP ER:
+   - Check it out under my name
+   - Bring your NYU ID
+   - netid
+   - Nxxxx id number
+
+## Week 1: Introduction
+
+### Questions
+   * What is interaction?
+   * Do you need sensors to be interactive?
+   * Is programming an artistic medium?
+   * Why use technology at all?
+
+### In-class
+   * Introduction to programming concepts
+   * Embodying code
+
+##### Week 1 Assignment
+   * Dancers: Watch Coding Train videos
+   - ITPers: Watch [Forsythe Technique Videos](https://www.youtube.com/user/GrandpaSafari/videos): They range from 10s to 1 minute. Very short!
+      - 16 videos that start with Forsythe-Writing
+      - 23 videos that starte with Forsythe-Lines
+      - [Avoidance](https://www.youtube.com/watch?v=cqGyFiEXXIQ)
+   * Everyone: Read chapter 2 of [Viewpoints](http://www.bam.org/media/4813887/anne-bogart-and-tina-landau-the-viewpoints-book.pdf). What does a framework for movement look like? What are the parameters of choreography?
+
+## Week 2: Dynamic Pathways
+
+### Questions
+   * How do you choreograph code?
+
+##### Week 2 Assignment
+- Choreograph a programmed pathway.
+
+## Week 3: Interacting with Pathways
+
+### Questions
+   * What are all the ways to interact with a pathway?
+
+##### Week 3 Assignment
+- Create a duet between a drawer and a dancer.
+
+## Week 4 Form + Substance: Distortion
+
+### In-class
+   * Crit duets.
+   * Play with shadows.
+   * Play with slitscan.
+
+### Questions
+   * What is a body made of?
+   * How can changing the way your body is represented change how you move?
+
+##### Week 4 Assignment
+- Bring a piece of clothing that changes the shape of your body to class next week.
+- Read Chapter 7 of [Dynamic Alignment](https://books.google.com/books?id=CBwV_g8DhEMC&lpg=PA2&ots=nRQ2JS3SWv&dq=dynamic%20alignment%20chapters&pg=PP1#v=onepage&q&f=false)
+
+## Week 5 Form + Substance: Re-architecture
+
+### Questions
+   * What are the all the ways the body can fold?
+   * How is the body symmetrical, how is it not?
+   * How would you move if your head was in between your knees?
+
+### Tech
+   * Hello Kinect v.2
+   * Hello Kinectron
+   * 2D v. 3D
+   * Skeleton
+   * DepthImage
+
+##### Week 5 Assignment
+Make a mirror with the Kinectron that distorts or re-architects the body, inducing you to move in new and unexpected ways.
+
+## Week 6: Space: Visual
+
+### In-class
+   * Crit mirrors.
+
+### Questions
+   * What are all the ways to define space?
+   * How can space be emotional?
+   * What are all the ways to interact with a space?
+   * How can you choreograph movement by choreographing a "dynamic" space, one that changes over time?
+
+##### Week 6 Assignment
+   * Watch: Jiri Kylian | NDT : [Sweet Dreams](http://www.numeridanse.tv/en/video/1046_sweet-dreams)
+   * Take 30 pictures of light defining space. (DO NOT FIND ON INTERNET!)
+   * Pick 3 you'd like to explore in code.
+
+## Week 7: Space: Sound
+
+### Questions
+   * Can we define space with sound?
+
+### In-class
+   * Play with interactive soundspace examples.
+
+##### Week 7 Assignment
+   * Choreograph a dynamic space for people to explore and interact with.
+
+## Week 8 Timing and Pacing
+
+### In-class
+   * Crit dynamic space.
+
+### Questions
+   * What is the difference? Timing v. Pacing
+   * What is the timing and pacing of this? [Ligeti: Poeme Symphonique](https://www.youtube.com/watch?v=QCp7bL-AWvw) Is there rhythm?
+
+### In-class
+   * Coding Pacing
+      * Metronomes with % (modulo)
+      * Dynamic pacing with [Easing](http://easings.net/) + [Zeno's Paradox](https://en.wikipedia.org/wiki/Zeno%27s_paradoxes)
+   * Interactions that influence pacing
+
+##### Week 8 Assignment
+   * Read pgs. 36-42 (Tempo and Duration) 147-149 (Jo Ha Kyu) of [The Viewpoints Book](http://www.amazon.com/The-Viewpoints-Book-Practical-Composition/dp/1559362413)
+   * Select chapters from The Geometry of Music
+
+## Week 9: Rhythm and Tempo
+
+### Questions
+   * What is the difference? Rhythm v. Tempo
+   * Can computers groove?
+   * How many ways can you interact with a rhythm?
+
+### In-class
+   * Building polyrhythms
+      * With bodies
+      * With code
+   * Final Project discussion
+
+##### Week 9 Assignment
+Create 1-3 brainstorm drafts of your final project to test in class.
+
+## Project Development: Weeks 10, 11, 12
+
+Workshop and user-test final project ideas.
+
+## Showing: Week 12
+
+# Course Description
+Even where there is no connection between 2 events, if they happen at the same time, in the same space, we find relationships nonetheless.
+
+So then what is the point of hooking up dancers to sensing devices to connect them to various media if the relationships already exist in our minds?
+
+Simply seeing a cause-and-effect relationship between movement (input) and media (output) is not enough.
+
+This course explores a model for dance and interactive media where rules of interaction set the stage for dancers to shape choreography in real-time.
+
+We will re-conceive interactive media as a form of choreographic intervention. Instead of asking how dancers can control media, we will turn the tables to ask how interactive systems can influence movement. How do you make someone feel soft inside? How do you shake an entire room? How do you orchestrate duets between strangers?
+
+To accomplish this, choreographers must learn to apply computational thinking to choreography and programmers need to be able to apply choreographic thinking to computation.
+
+Using computer vision and a broad range of media from graphics and video, to sound and text, we will look at directing both how people move (quality of movement) as well as where they move (pathways and spatial relationships).
+
+We will evaluate the strengths and weaknesses of the various sensing technologies available to us today. How wide is the gulf between what we can see and feel (strength, hardness, contortion) and what a computer can see and interpret (locations, contours, velocity, acceleration)?
+
+Class time will be split between movement exercises, playing with examples and deconstructing code.
+
+The course is cross-listed with the Tisch Dance MFA department. All assignments will be collaborations between ITP and Tisch Dance students. The class will culminate in a final showing.
+
+## Pre-requesites
+The course is intended both for anyone looking to deepen their practice in working with movement-based interaction regardless of previous experience with movement technique or programming.
+
+As a result, there is no pre-requisite for dance and no pre-requisite for code.
+
+##Grading
+- 40% for showing up (on time!) and participating with curiosity and enthusiasm.
+- 10% for each topic study.
+- 20% for the final project.
+- More than 2 unexcused absences qualifies you for a failure.
+- 2 lateness of 15 minutes or more qualifies as 1 unexcused absence.
+

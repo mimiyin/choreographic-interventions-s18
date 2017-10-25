@@ -183,23 +183,15 @@ Workshop and user-test final project ideas.
 ## Showing: Week 12
 
 # Course Description
-Even where there is no connection between 2 events, if they happen at the same time, in the same space, we find relationships nonetheless.
+Even where there is no connection between 2 events, if they happen at the same time, in the same space, we find relationships nonetheless. So then what is the point of hooking up dancers to sensing devices to connect them to various media if the relationships already exist in our minds? Simply seeing a cause-and-effect relationship between movement (input) and media (output) is not enough.
 
-So then what is the point of hooking up dancers to sensing devices to connect them to various media if the relationships already exist in our minds?
+This course re-conceives interactive media as a form of choreographic intervention. Instead of asking how dancers can control media, we will turn the tables to ask how interactive systems can influence movement. How do you make someone feel soft inside? How do you shake an entire room? How do you orchestrate duets between strangers?
 
-Simply seeing a cause-and-effect relationship between movement (input) and media (output) is not enough.
-
-This course explores a model for dance and interactive media where rules of interaction set the stage for dancers to shape choreography in real-time.
-
-We will re-conceive interactive media as a form of choreographic intervention. Instead of asking how dancers can control media, we will turn the tables to ask how interactive systems can influence movement. How do you make someone feel soft inside? How do you shake an entire room? How do you orchestrate duets between strangers?
-
-To accomplish this, choreographers must learn to apply computational thinking to choreography and programmers need to be able to apply choreographic thinking to computation.
+To accomplish this, choreographers must learn to apply computational thinking to choreography and programmers need to be able to apply choreographic thinking to computation. To whatever extent possible, we will attempt to embody code.
 
 Using computer vision and a broad range of media from graphics and video, to sound and text, we will look at directing both how people move (quality of movement) as well as where they move (pathways and spatial relationships).
 
-We will evaluate the strengths and weaknesses of the various sensing technologies available to us today. How wide is the gulf between what we can see and feel (strength, hardness, contortion) and what a computer can see and interpret (locations, contours, velocity, acceleration)?
-
-Class time will be split between movement exercises, playing with examples and deconstructing code.
+We will evaluate the strengths and weaknesses of the various sensing technologies available to us today. How wide is the gulf between what we can see and feel (strength, hardness, contortion) and what a computer can see and interpret (locations, contours, velocity, acceleration)? Class time will be split between movement exercises, playing with examples and deconstructing code.
 
 The course is cross-listed with the Tisch Dance MFA department. All assignments will be collaborations between ITP and Tisch Dance students. The class will culminate in a final showing.
 

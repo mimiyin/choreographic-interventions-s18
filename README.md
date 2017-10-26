@@ -132,10 +132,13 @@ Create a mirror that distorts or re-architects the body to move in new and unexp
 
 ### In-class
    * Crit mirrors.
+   * Play with visual spaces.
+      * Interacting with dynamic spaces.
+      * Defining spaces with bodies.
 
 ### Questions
+   * Can space be emotional?
    * What are all the ways to define space?
-   * How can space be emotional?
    * What are all the ways to interact with a space?
    * How can you choreograph movement by choreographing a "dynamic" space, one that changes over time?
 
@@ -149,7 +152,9 @@ Create a mirror that distorts or re-architects the body to move in new and unexp
    * Can we define space with sound?
 
 ### In-class
-   * Play with interactive soundspace examples.
+   * Play with interactive soundspaces.
+      * Analog v. Digital
+      * Building harmonies in "pitch space."
 
 ### Assignment
    * Choreograph a dynamic space for people to explore and interact with.

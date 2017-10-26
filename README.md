@@ -49,6 +49,9 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    - netid
    - Nxxxx id number
 
+   ***
+   ***
+
 ## Week 1: Introduction
 
 ### Questions
@@ -71,6 +74,8 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Everyone: Read chapter 2 of [Viewpoints](http://www.bam.org/media/4813887/anne-bogart-and-tina-landau-the-viewpoints-book.pdf). What does a framework for movement look like? What are the parameters of choreography?
    * Everyone: Complete Chapter 0 of Workbook
 
+   ***
+
 ## Week 2: Dynamic Pathways
 
 ### Questions
@@ -79,6 +84,8 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### Assignment
    * Program a choreographed pathway. OR. Choreograph a programmed pathway.
    * Complete Chapter 1 of Workbook
+
+   ***
 
 ## Week 3: Interacting with Pathways
 
@@ -91,6 +98,8 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 
 ### Assignment
 Create a duet between a drawer and a dancer.
+
+***
 
 ## Week 4 Form + Substance: Distortion
 
@@ -110,6 +119,8 @@ Create a duet between a drawer and a dancer.
    * Read Chapter 7 of [Dynamic Alignment](https://books.google.com/books?id=CBwV_g8DhEMC&lpg=PA2&ots=nRQ2JS3SWv&dq=dynamic%20alignment%20chapters&pg=PP1#v=onepage&q&f=false)
    * Complete Chapter 2 of Workbook
 
+   ***
+
 ## Week 5 Form + Substance: Re-architecture
 
 ### Questions
@@ -127,6 +138,8 @@ Create a duet between a drawer and a dancer.
 
 ### Assignment
 Create a mirror that distorts or re-architects the body to move in new and unexpected ways.
+
+***
 
 ## Week 6: Space: Visual
 
@@ -146,6 +159,8 @@ Create a mirror that distorts or re-architects the body to move in new and unexp
    * Watch: Jiri Kylian | NDT : [Sweet Dreams](http://www.numeridanse.tv/en/video/1046_sweet-dreams)
    * Complete Chapter 3 of Workbook.
 
+   ***
+
 ## Week 7: Space: Sound
 
 ### Questions
@@ -158,6 +173,8 @@ Create a mirror that distorts or re-architects the body to move in new and unexp
 
 ### Assignment
    * Choreograph a dynamic space for people to explore and interact with.
+
+   ***
 
 ## Week 8 Timing and Pacing
 
@@ -180,6 +197,8 @@ Create a mirror that distorts or re-architects the body to move in new and unexp
    * Select chapters from The Geometry of Music
    * Complete Chapter 4 of Workbook
 
+   ***
+
 ## Week 9: Rhythm and Tempo
 
 ### Questions
@@ -194,8 +213,10 @@ Create a mirror that distorts or re-architects the body to move in new and unexp
       * With bodies through code
    * Final Project discussion
 
-###  9 Assignment
+###  Assignment
 Create 1-3 brainstorm drafts of your final project to test in class.
+
+***
 
 ## Project Development: Weeks 10, 11, 12
 

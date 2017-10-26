@@ -61,44 +61,54 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Introduction to programming concepts
    * Embodying code
 
-##### Week 1 Assignment
+### Assignment
    * Dancers: Watch Coding Train videos
-   - ITPers: Watch [Forsythe Technique Videos](https://www.youtube.com/user/GrandpaSafari/videos): They range from 10s to 1 minute. Very short!
-      - 16 videos that start with Forsythe-Writing
-      - 23 videos that starte with Forsythe-Lines
-      - [Avoidance](https://www.youtube.com/watch?v=cqGyFiEXXIQ)
+   * ITPers: Watch [Forsythe Technique Videos](https://www.youtube.com/user/GrandpaSafari/videos): They range from 10s to 1 minute. Very short!
+      * 16 videos that start with Forsythe-Writing
+      * 23 videos that starte with Forsythe-Lines
+      * [Avoidance](https://www.youtube.com/watch?v=cqGyFiEXXIQ)
+      * [Line](https://www.youtube.com/watch?v=aOd0PtgS8KU)
    * Everyone: Read chapter 2 of [Viewpoints](http://www.bam.org/media/4813887/anne-bogart-and-tina-landau-the-viewpoints-book.pdf). What does a framework for movement look like? What are the parameters of choreography?
+   * Everyone: Complete Chapter 0 of Workbook
 
 ## Week 2: Dynamic Pathways
 
 ### Questions
    * How do you choreograph code?
 
-##### Week 2 Assignment
-- Choreograph a programmed pathway.
+### Assignment
+   * Program a choreographed pathway. OR. Choreograph a programmed pathway.
+   * Complete Chapter 1 of Workbook
 
 ## Week 3: Interacting with Pathways
 
 ### Questions
    * What are all the ways to interact with a pathway?
 
-##### Week 3 Assignment
-- Create a duet between a drawer and a dancer.
+### In-class
+   * Crit choreographed pathways.
+   * Dynamic drawing.
+
+### Assignment
+Create a duet between a drawer and a dancer.
 
 ## Week 4 Form + Substance: Distortion
 
 ### In-class
    * Crit duets.
    * Play with shadows.
+   * Play with Kinect body contours.
+   * Play with Kinect depthMap.
    * Play with slitscan.
 
 ### Questions
    * What is a body made of?
    * How can changing the way your body is represented change how you move?
 
-##### Week 4 Assignment
-- Bring a piece of clothing that changes the shape of your body to class next week.
-- Read Chapter 7 of [Dynamic Alignment](https://books.google.com/books?id=CBwV_g8DhEMC&lpg=PA2&ots=nRQ2JS3SWv&dq=dynamic%20alignment%20chapters&pg=PP1#v=onepage&q&f=false)
+### Assignment
+   * Bring a piece of clothing that changes the shape of your body to class next week.
+   * Read Chapter 7 of [Dynamic Alignment](https://books.google.com/books?id=CBwV_g8DhEMC&lpg=PA2&ots=nRQ2JS3SWv&dq=dynamic%20alignment%20chapters&pg=PP1#v=onepage&q&f=false)
+   * Complete Chapter 2 of Workbook
 
 ## Week 5 Form + Substance: Re-architecture
 
@@ -112,10 +122,11 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Hello Kinectron
    * 2D v. 3D
    * Skeleton
+   * Bodies
    * DepthImage
 
-##### Week 5 Assignment
-Make a mirror with the Kinectron that distorts or re-architects the body, inducing you to move in new and unexpected ways.
+### Assignment
+Create a mirror that distorts or re-architects the body to move in new and unexpected ways.
 
 ## Week 6: Space: Visual
 
@@ -128,10 +139,9 @@ Make a mirror with the Kinectron that distorts or re-architects the body, induci
    * What are all the ways to interact with a space?
    * How can you choreograph movement by choreographing a "dynamic" space, one that changes over time?
 
-##### Week 6 Assignment
+### Assignment
    * Watch: Jiri Kylian | NDT : [Sweet Dreams](http://www.numeridanse.tv/en/video/1046_sweet-dreams)
-   * Take 30 pictures of light defining space. (DO NOT FIND ON INTERNET!)
-   * Pick 3 you'd like to explore in code.
+   * Complete Chapter 3 of Workbook.
 
 ## Week 7: Space: Sound
 
@@ -141,7 +151,7 @@ Make a mirror with the Kinectron that distorts or re-architects the body, induci
 ### In-class
    * Play with interactive soundspace examples.
 
-##### Week 7 Assignment
+### Assignment
    * Choreograph a dynamic space for people to explore and interact with.
 
 ## Week 8 Timing and Pacing
@@ -157,11 +167,13 @@ Make a mirror with the Kinectron that distorts or re-architects the body, induci
    * Coding Pacing
       * Metronomes with % (modulo)
       * Dynamic pacing with [Easing](http://easings.net/) + [Zeno's Paradox](https://en.wikipedia.org/wiki/Zeno%27s_paradoxes)
+      * Human metronomes
    * Interactions that influence pacing
 
-##### Week 8 Assignment
+### Assignment
    * Read pgs. 36-42 (Tempo and Duration) 147-149 (Jo Ha Kyu) of [The Viewpoints Book](http://www.amazon.com/The-Viewpoints-Book-Practical-Composition/dp/1559362413)
    * Select chapters from The Geometry of Music
+   * Complete Chapter 4 of Workbook
 
 ## Week 9: Rhythm and Tempo
 
@@ -174,9 +186,10 @@ Make a mirror with the Kinectron that distorts or re-architects the body, induci
    * Building polyrhythms
       * With bodies
       * With code
+      * With bodies through code
    * Final Project discussion
 
-##### Week 9 Assignment
+###  9 Assignment
 Create 1-3 brainstorm drafts of your final project to test in class.
 
 ## Project Development: Weeks 10, 11, 12
@@ -186,7 +199,7 @@ Workshop and user-test final project ideas.
 ## Showing: Week 12
 
 # Course Description
-Even where there is no connection between 2 events, if they happen at the same time, in the same space, we find relationships nonetheless. 
+Even where there is no connection between 2 events, if they happen at the same time, in the same space, we find relationships nonetheless.
 
 So then what is the point of hooking up dancers to sensing devices to connect them to various media if the relationships already exist in our minds? Simply seeing a cause-and-effect relationship between movement (input) and media (output) is not enough.
 

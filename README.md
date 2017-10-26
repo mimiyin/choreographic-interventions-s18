@@ -27,6 +27,9 @@ Because course topics are organized around movement concepts, technical topics w
 - Deconstructing choreography into parameters for code.
 - Extracting choreographic ideas from code.
 
+### Workbook
+Each topic will be introduced through paper-based drawing exercises and code examples. [Google Drive Link](https://drive.google.com/drive/folders/0B_lnhZP0dCt8MHNPamxUTzJSMDg?usp=sharing)
+
 ### Programming Resources
 - [p5.js](http://p5js.org/) | [Reference](http://p5js.org/reference/) | [Web Editor](http://alpha.editor.p5js.org/)
 - [Coding Rainbow](http://thecodingtrain.com/)
@@ -38,7 +41,7 @@ Because course topics are organized around movement concepts, technical topics w
 - Select chapters from [The Viewpoints Book](http://www.amazon.com/The-Viewpoints-Book-Practical-Composition/dp/1559362413) | [PDF](http://www.bam.org/media/4813887/anne-bogart-and-tina-landau-the-viewpoints-book.pdf)
 - Select chapters from [Dynamic Alignment Through Imagery](http://www.amazon.com/Dynamic-Alignment-Through-Imagery-Edition/dp/0736067892) | [Google Books](https://books.google.com/books?id=CBwV_g8DhEMC&lpg=PA2&ots=nRQ2JS3SWv&dq=dynamic%20alignment%20chapters&pg=PP1#v=onepage&q&f=false)
 - [Forsythe Technique Videos on Youtube](https://www.youtube.com/user/GrandpaSafari/videos)
--
+
 
 ### Dance students checking stuff out of ITP ER:
    - Check it out under my name

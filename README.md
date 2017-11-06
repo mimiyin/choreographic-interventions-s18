@@ -1,6 +1,6 @@
 # Syllabus - Work in Progress
 
-- Spring 2017, Mondays, 6:15PM-9:10PM in Studio 1 @[111 2nd Avenue](https://goo.gl/maps/FfVoDSMxNSN2)
+- Spring 2017, Mondays, 7PM-9:55PM in Studio 1 @[111 2nd Avenue](https://goo.gl/maps/FfVoDSMxNSN2)
 - Mimi Yin, mimi.yin@nyu.edu
 - [Office Hours Signup](https://itp.nyu.edu/inwiki/Signup/Mimi)
 

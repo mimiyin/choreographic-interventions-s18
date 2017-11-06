@@ -231,7 +231,7 @@ So then what is the point of hooking up dancers to sensing devices to connect th
 
 This course re-conceives interactive media as a form of choreographic intervention. Instead of asking how dancers can control media, we will turn the tables to ask how interactive systems can influence movement. How do you make someone feel soft inside? How do you shake an entire room? How do you orchestrate duets between strangers?
 
-To accomplish this, choreographers must learn to apply computational thinking to choreography and programmers need to be able to apply choreographic thinking to computation. To whatever extent possible, we will attempt to embody code.
+To accomplish this, choreographers will learn to apply computational thinking to choreography and programmers will learn to apply choreographic thinking to computation. And to whatever extent possible, we will attempt to embody code.
 
 Using computer vision and a broad range of media from graphics and video, to sound and text, we will look at directing both how people move (quality of movement) as well as where they move (pathways and spatial relationships).
 

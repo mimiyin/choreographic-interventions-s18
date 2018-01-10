@@ -106,9 +106,9 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### Assignment
    * Create a 1 minute duet between a programmed pathway and a dancer.
       * Pick from pathways we've discussed: linear, random, noisy, circular.
-      * You can use more than 1 kind of pathway.
       * If you use a new kind of pathway (e.g. fractals), include an analysis of that pathway comparable to what we have done in class so that you are on comparable conceptual footing.
-   * Use of Kinect is optional
+      * You can use more than 1 kind of pathway.
+* Use of Kinect is optional
 
 ***
    

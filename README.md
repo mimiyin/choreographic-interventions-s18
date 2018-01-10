@@ -74,20 +74,9 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Everyone: Read chapter 2 of [Viewpoints](http://www.bam.org/media/4813887/anne-bogart-and-tina-landau-the-viewpoints-book.pdf). What does a framework for movement look like? What are the parameters of choreography?
    * Everyone: Complete Chapter 0 of Workbook
 
-   ***
-
-## Week 2: Dynamic Pathways
-
-### Questions
-   * How do you choreograph code?
-
-### Assignment
-   * Program a choreographed pathway. OR. Choreograph a programmed pathway.
-   * Complete Chapter 1 of Workbook
-
-   ***
-
-## Week 3: Interacting with Pathways
+***
+   
+## Week 2: Interacting with Pathways
 
 ### Questions
    * What are all the ways to interact with a pathway?
@@ -101,6 +90,17 @@ Create a duet between a drawer and a dancer.
 
 ***
 
+## Week 3: Dynamic Pathways
+
+### Questions
+   * How do you choreograph code?
+
+### Assignment
+   * Program a choreographed pathway. OR. Choreograph a programmed pathway.
+   * Complete Chapter 1 of Workbook
+
+***
+   
 ## Week 4 Form + Substance: Distortion
 
 ### In-class

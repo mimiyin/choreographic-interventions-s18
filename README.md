@@ -80,24 +80,33 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 
 ### Questions
    * What are all the ways to interact with a pathway?
+   * How do you choreograph code?
 
 ### In-class
-   * Crit choreographed pathways.
-   * Dynamic drawing.
-
+   * Interacting with a static pathway (rope)
+   * Interacting with a moving pathway (live drawing)
+   * Choreographing linear, random and noisy pathways
+   
 ### Assignment
-Create a duet between a drawer and a dancer.
+   * Complete Chapter 1 of Workbook
+   * Create a 1 minute duet using a live drawer and a dancer.
 
 ***
 
 ## Week 3: Dynamic Pathways
 
 ### Questions
-   * How do you choreograph code?
+   * How do you choreograph code? cont'd
+   
+### In-class
+   * Crit duets
+   * Choreographing circular pathways
+   * Hello Kinect!
 
 ### Assignment
-   * Program a choreographed pathway. OR. Choreograph a programmed pathway.
-   * Complete Chapter 1 of Workbook
+   * Create a 1 minute duet between a programmed pathway and a dancer.
+   * Pick at least 1 type of pathway to work with choreographically and in code.
+   * Use of Kinect is optional
 
 ***
    

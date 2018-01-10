@@ -104,7 +104,8 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Hello Kinect!
 
 ### Assignment
-   * Create a 1 minute duet between a programmed pathway and a dancer.
+   * Create a 1 minute duet between a programmed pathway (linear, random, noisy or circular) and a dancer.
+   * You can use more than 1 kind of pathway.
    * Pick at least 1 type of pathway to work with choreographically and in code.
    * Use of Kinect is optional
 

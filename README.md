@@ -111,26 +111,12 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 * Use of Kinect is optional
 
 ***
-   
-## Week 4 Form + Substance: Distortion
-
-### In-class
-   * Crit duets.
-   * Play with shadows.
-   * Play with Kinect body contours.
-   * Play with Kinect depthMap.
-   * Play with slitscan.
-
-### Questions
-   * What is a body made of?
-   * How can changing the way your body is represented change how you move?
+## Week 4 Crit Duets, Preview of Week 5
 
 ### Assignment
-   * Bring a piece of clothing that changes the shape of your body to class next week.
    * Read Chapter 7 of [Dynamic Alignment](https://books.google.com/books?id=CBwV_g8DhEMC&lpg=PA2&ots=nRQ2JS3SWv&dq=dynamic%20alignment%20chapters&pg=PP1#v=onepage&q&f=false)
-   * Complete Chapter 2 of Workbook
-
-   ***
+   * Complete Sections 2.0-2.2 of the Workbook
+***
 
 ## Week 5 Form + Substance: Re-architecture
 
@@ -148,11 +134,29 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * DepthImage
 
 ### Assignment
-Create a mirror that distorts or re-architects the body to move in new and unexpected ways.
-
+   * Bring a piece of clothing that changes the shape of your body to class next week.
+   * Complete Sections 2.3-2.4 of the Workbook
+ 
 ***
 
-## Week 6: Space: Visual
+## Week 6 Form + Substance: Distortion
+
+### Questions
+   * What is a body made of?
+   * How can changing the way your body is represented change how you move?
+
+### In-class
+   * Play with shadows.
+   * Play with Kinect body contours.
+   * Play with Kinect depthMap.
+   * Play with slitscan.
+
+### Assignment
+   * Create a mirror that distorts or re-architects the body to move in new and unexpected ways.
+   
+***
+
+## Week 7: Space: Visual
 
 ### In-class
    * Crit mirrors.
@@ -172,22 +176,22 @@ Create a mirror that distorts or re-architects the body to move in new and unexp
 
    ***
 
-## Week 7: Space: Sound
+## Week 8: Space: Sound
 
 ### Questions
    * Can we define space with sound?
 
 ### In-class
    * Play with interactive soundspaces.
-      * Analog v. Digital
-      * Building harmonies in "pitch space."
+      * Building semantic spaces: Yes, No
+      * Building pitch spaces: Harmonium
 
 ### Assignment
    * Choreograph a dynamic space for people to explore and interact with.
 
-   ***
+***
 
-## Week 8 Timing and Pacing
+## Week 9 Timing and Pacing
 
 ### In-class
    * Crit dynamic space.
@@ -205,25 +209,8 @@ Create a mirror that distorts or re-architects the body to move in new and unexp
 
 ### Assignment
    * Read pgs. 36-42 (Tempo and Duration) 147-149 (Jo Ha Kyu) of [The Viewpoints Book](http://www.amazon.com/The-Viewpoints-Book-Practical-Composition/dp/1559362413)
-   * Select chapters from The Geometry of Music
-   * Complete Chapter 4 of Workbook
 
-   ***
-
-## Week 9: Rhythm and Tempo
-
-### Questions
-   * What is the difference? Rhythm v. Tempo
-   * Can computers groove?
-   * How many ways can you interact with a rhythm?
-
-### In-class
-   * Building polyrhythms
-      * With bodies
-      * With code
-      * With bodies through code
-   * Final Project discussion
-
+  
 ###  Assignment
 Create 1-3 brainstorm drafts of your final project to test in class.
 

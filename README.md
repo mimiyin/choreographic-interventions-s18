@@ -5,7 +5,7 @@
 - [Office Hours Signup](https://itp.nyu.edu/inwiki/Signup/Mimi)
 
 ### Course Structure | [See introductory description below.](#course-description)
-Over the course of the semester, we will cover 4 topic areas that correspond to 4 parameters of choreography: Pathways, Form + Substance, Space and Timing + Pacing. Topics will be introduced through movement-based improvisation exercises. Computational strategies will be examined through code examples. For each topic, students will create a small movement study in 2 stages: the first analog, the second computational with the aim of fully exploring how technology "intervened" and changed the choreographic process.
+Over the course of the semester, we will cover 4 topic areas that correspond to 4 parameters of choreography: Pathways, Form + Substance, Space and Time. Topics will be introduced through movement-based improvisation exercises. Computational strategies will be examined through code examples. For each topic, students will create a small movement study in 2 stages: the first analog, the second computational with the aim of fully exploring how technology "intervened" and changed the choreographic process.
 
 The class will culminate in a showing of student work. Final projects can either be in the form of a tool to aid in movement practice, an interactive installation or a live performance.
 
@@ -71,7 +71,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Avoidance](https://www.youtube.com/watch?v=cqGyFiEXXIQ)
       * [Line](https://www.youtube.com/watch?v=aOd0PtgS8KU)
    * Everyone: Read chapter 2 of [Viewpoints](http://www.bam.org/media/4813887/anne-bogart-and-tina-landau-the-viewpoints-book.pdf). What does a framework for movement look like? What are the parameters of choreography?
-   * Everyone: Complete Chapters 0 and 1 of Workbook
+   * Everyone: Review Chapters 0 and complete Chapter 1 of the Workbook
 
 ***
    

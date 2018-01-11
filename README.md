@@ -143,6 +143,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * How can changing the way your body is represented change how you move?
 
 ### In-class
+   * Show and tell clothes.
    * Play with shadows.
    * Play with Kinect body contours.
    * Play with Kinect depthMap.

@@ -168,16 +168,19 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * What are all the ways to define space?
    * What are all the ways to interact with a space?
    * How do you choreograph a "dynamic" space, one that changes over time?
-   * Can we define space with sound?
+   * What is the difference between a space and a terrain?
+   * How do terrains influence movement?
+   * Can we define virtual terrains with sound?
    
 ### In-class
    * Play with visual spaces.
       * Interacting with dynamic spaces.
       * Defining spaces with bodies.
-      * Interacting with soundspaces.
+      * Interacting with sound terrains.
          
 ### Assignment
    * Read pgs. 36-42 (Tempo and Duration) 147-149 (Jo Ha Kyu) of [The Viewpoints Book](http://www.amazon.com/The-Viewpoints-Book-Practical-Composition/dp/1559362413)
+   * Complete Chapter 4 of the Workbook
 
 ***
 

@@ -187,8 +187,8 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ## Week 9 Time
 
 ### Questions
-   * What is the difference? Timing v. Pacing
-   * What is the timing and pacing of this? [Ligeti: Poeme Symphonique](https://www.youtube.com/watch?v=QCp7bL-AWvw) Is there rhythm?
+   * What is the difference between timing and pacing?
+   * What is the timing and pacing of [Gyorgy Ligeti's Poeme Symphonique](https://www.youtube.com/watch?v=QCp7bL-AWvw) Is there rhythm?
 
 ### In-class
    * Coding Pacing

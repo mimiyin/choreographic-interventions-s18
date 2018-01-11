@@ -190,9 +190,10 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### In-class
    * Coding Pacing
       * Metronomes with % (modulo)
-      * Dynamic pacing with [Easing](http://easings.net/) + [Zeno's Paradox](https://en.wikipedia.org/wiki/Zeno%27s_paradoxes)
       * Human metronomes
-   * Interactions that influence pacing
+   * Designing interactions to play with pacing
+      * Tracking Position v. Speed v. Acceleration
+      * Dynamic pacing with [Zeno's Paradox](https://en.wikipedia.org/wiki/Zeno%27s_paradoxes) and Decay
    * Discuss final projects
 
 ###  Assignment

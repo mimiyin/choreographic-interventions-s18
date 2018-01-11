@@ -101,7 +101,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### In-class
    * Crit duets
    * Choreographing circular pathways
-   * Hello Kinect!
+   * Hello Kinect v.2 and Kinectron!
 
 ### Assignment
    * Create a 1 minute duet between a programmed pathway and a dancer.
@@ -126,12 +126,9 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * How would you move if your head was in between your knees?
 
 ### Tech
-   * Hello Kinect v.2
-   * Hello Kinectron
+   * Review Kinect and Kinectron
+   * Vector Math
    * 2D v. 3D
-   * Skeleton
-   * Bodies
-   * DepthImage
 
 ### Assignment
    * Bring a piece of clothing that changes the shape of your body to class next week.

@@ -65,14 +65,13 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Embodying code
 
 ### Assignment
-   * Dancers: Watch Coding Train videos
    * ITPers: Watch [Forsythe Technique Videos](https://www.youtube.com/user/GrandpaSafari/videos): They range from 10s to 1 minute. Very short!
       * 16 videos that start with Forsythe-Writing
       * 23 videos that starte with Forsythe-Lines
       * [Avoidance](https://www.youtube.com/watch?v=cqGyFiEXXIQ)
       * [Line](https://www.youtube.com/watch?v=aOd0PtgS8KU)
    * Everyone: Read chapter 2 of [Viewpoints](http://www.bam.org/media/4813887/anne-bogart-and-tina-landau-the-viewpoints-book.pdf). What does a framework for movement look like? What are the parameters of choreography?
-   * Everyone: Complete Chapter 0 of Workbook
+   * Everyone: Complete Chapters 0 and 1 of Workbook
 
 ***
    
@@ -88,7 +87,6 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Choreographing linear, random and noisy pathways
    
 ### Assignment
-   * Complete Chapter 1 of Workbook
    * Create a 1 minute duet using a live drawer and a dancer.
 
 ***
@@ -106,16 +104,16 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### Assignment
    * Create a 1 minute duet between a programmed pathway and a dancer.
       * Pick from pathways we've discussed: linear, random, noisy, circular.
-      * If you use a new kind of pathway (e.g. fractals), include an analysis of that pathway comparable to what we have done in class so that you are on comparable conceptual footing.
       * You can use more than 1 kind of pathway.
+      * If you use a new kind of pathway (e.g. fractals), include an analysis of that pathway comparable to what we have done in class so that you are on comparable conceptual footing.
 * Use of Kinect is optional
 
 ***
-## Week 4 Crit Duets, Preview of Week 5
+## Week 4 Show Duets, Preview of Week 5
 
 ### Assignment
    * Read Chapter 7 of [Dynamic Alignment](https://books.google.com/books?id=CBwV_g8DhEMC&lpg=PA2&ots=nRQ2JS3SWv&dq=dynamic%20alignment%20chapters&pg=PP1#v=onepage&q&f=false)
-   * Complete Sections 2.0-2.2 of the Workbook
+   * Complete Sections 2.0-2.2 of Chapter 2 of the Workbook
 ***
 
 ## Week 5 Form + Substance: Re-architecture
@@ -132,7 +130,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 
 ### Assignment
    * Bring a piece of clothing that changes the shape of your body to class next week.
-   * Complete Sections 2.3-2.4 of the Workbook
+   * Complete Sections 2.3-2.4 of Chapter 2 of the Workbook
  
 ***
 
@@ -151,48 +149,40 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 
 ### Assignment
    * Create a mirror that distorts or re-architects the body to move in new and unexpected ways.
+   * Be clear about how you think the mirror is going to make people move.
    
 ***
 
-## Week 7: Space: Visual
+## Week 7: Play with Mirrors, Preview of Week 8
 
-### In-class
-   * Crit mirrors.
-   * Play with visual spaces.
-      * Interacting with dynamic spaces.
-      * Defining spaces with bodies.
+### Assignment
+   * Watch: Jiri Kylian | NDT : [Sweet Dreams](http://www.numeridanse.tv/en/video/1046_sweet-dreams)
+   * Complete Chapter 3 of Workbook
+***
+
+## Week 8: Space
 
 ### Questions
    * Can space be emotional?
    * What are all the ways to define space?
    * What are all the ways to interact with a space?
-   * How can you choreograph movement by choreographing a "dynamic" space, one that changes over time?
-
-### Assignment
-   * Watch: Jiri Kylian | NDT : [Sweet Dreams](http://www.numeridanse.tv/en/video/1046_sweet-dreams)
-   * Complete Chapter 3 of Workbook.
-
-   ***
-
-## Week 8: Space: Sound
-
-### Questions
+   * How do you choreograph a "dynamic" space, one that changes over time?
    * Can we define space with sound?
-
+   
 ### In-class
-   * Play with interactive soundspaces.
-      * Building semantic spaces: Yes, No
-      * Building pitch spaces: Harmonium
-
+   * Play with visual spaces.
+      * Interacting with dynamic spaces.
+      * Defining spaces with bodies.
+      * Interacting with soundspaces.
+         * Semantic spaces: Yes, No
+         * Pitch spaces: Harmonium
+         
 ### Assignment
-   * Choreograph a dynamic space for people to explore and interact with.
+   * Read pgs. 36-42 (Tempo and Duration) 147-149 (Jo Ha Kyu) of [The Viewpoints Book](http://www.amazon.com/The-Viewpoints-Book-Practical-Composition/dp/1559362413)
 
 ***
 
-## Week 9 Timing and Pacing
-
-### In-class
-   * Crit dynamic space.
+## Week 9 Time
 
 ### Questions
    * What is the difference? Timing v. Pacing
@@ -204,13 +194,10 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * Dynamic pacing with [Easing](http://easings.net/) + [Zeno's Paradox](https://en.wikipedia.org/wiki/Zeno%27s_paradoxes)
       * Human metronomes
    * Interactions that influence pacing
+   * Discuss final projects
 
-### Assignment
-   * Read pgs. 36-42 (Tempo and Duration) 147-149 (Jo Ha Kyu) of [The Viewpoints Book](http://www.amazon.com/The-Viewpoints-Book-Practical-Composition/dp/1559362413)
-
-  
 ###  Assignment
-Create 1-3 brainstorm drafts of your final project to test in class.
+   * Create an interactive space for your final. (Sensors not required.)
 
 ***
 

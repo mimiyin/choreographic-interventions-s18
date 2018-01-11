@@ -194,7 +194,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Coding Pacing
       * Metronomes with % (modulo)
       * Human metronomes
-   * Designing interactions to play with pacing
+   * Designing interactions to play with time
       * Tracking Position v. Speed v. Acceleration
       * Dynamic pacing with [Zeno's Paradox](https://en.wikipedia.org/wiki/Zeno%27s_paradoxes) and Decay
    * Discuss final projects

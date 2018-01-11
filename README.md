@@ -71,7 +71,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Avoidance](https://www.youtube.com/watch?v=cqGyFiEXXIQ)
       * [Line](https://www.youtube.com/watch?v=aOd0PtgS8KU)
    * Everyone: Read chapter 2 of [Viewpoints](http://www.bam.org/media/4813887/anne-bogart-and-tina-landau-the-viewpoints-book.pdf). What does a framework for movement look like? What are the parameters of choreography?
-   * Everyone: Review Chapters 0 and complete Chapter 1 of the Workbook
+   * Everyone: Review Chapters 0 and complete sections 1.0 - 1.3 of Chapter 1 of the Workbook
 
 ***
    
@@ -87,6 +87,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Choreographing linear, random and noisy pathways
    
 ### Assignment
+   * Complete section 1.4 of Chapter 1 of the Workbook.
    * Create a 1 minute duet using a live drawer and a dancer.
 
 ***
@@ -174,8 +175,6 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * Interacting with dynamic spaces.
       * Defining spaces with bodies.
       * Interacting with soundspaces.
-         * Semantic spaces: Yes, No
-         * Pitch spaces: Harmonium
          
 ### Assignment
    * Read pgs. 36-42 (Tempo and Duration) 147-149 (Jo Ha Kyu) of [The Viewpoints Book](http://www.amazon.com/The-Viewpoints-Book-Practical-Composition/dp/1559362413)

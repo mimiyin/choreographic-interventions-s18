@@ -6,15 +6,13 @@ Drawing skeleton joints and bones.
 // Declare kinectron
 let kinectron = null;
 let bm = new BodyManager();
+let bps = {};
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
   // Define and create an instance of kinectron
   kinectron = new Kinectron("192.168.0.112");
-
-  // CONNECT TO MIRCROSTUDIO
-  //kinectron = new Kinectron("kinectron.itp.tsoa.nyu.edu");
 
   // Connect with application over peer
   kinectron.makeConnection();
@@ -27,7 +25,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(255);
 
   // Get all the joints off the tracked body and do something with them
   let bodies = bm.getBodies();
@@ -39,41 +37,26 @@ function draw() {
       drawJoint(joints[j]);
     }
 
+    // Get the head
+    let head = scaleJoint(joints[kinectron.HEAD]);
 
-    // Mid-line
-    let head = getPos(joints[kinectron.HEAD]);
-    let neck = getPos(joints[kinectron.NECK]);
-    let spineShoulder = getPos(joints[kinectron.SPINESHOULDER]);
-    let spineMid = getPos(joints[kinectron.SPINEMID]);
-    let spineBase = getPos(joints[kinectron.SPINEBASE]);
+    // If the body already exists...
+    if(b in bps) {
+      bps[b].ppos = bps.pos;
+    }
+    // Otherwise, create a new record for it
+    else {
+      bps[b] = {};
+    }
+    // Store the current position either way
+    bps[b].pos = head;
+  }
 
-    // Right Arm
-    let shoulderRight = getPos(joints[kinectron.SHOULDERRIGHT]);
-    let elbowRight = getPos(joints[kinectron.ELBOWRIGHT]);
-    let wristRight = getPos(joints[kinectron.WRISTRIGHT]);
-    let handRight = getPos(joints[kinectron.HANDRIGHT]);
-    let handTipRight = getPos(joints[kinectron.HANDTIPRIGHT]);
-    let thumbRight = getPos(joints[kinectron.THUMBRIGHT]);
-
-    // Left Arm
-    let shoulderLeft = getPos(joints[kinectron.SHOULDERLEFT]);
-    let elbowLeft = getPos(joints[kinectron.ELBOWLEFT]);
-    let wristLeft = getPos(joints[kinectron.WRISTLEFT]);
-    let handLeft = getPos(joints[kinectron.HANDLEFT]);
-    let handTipLeft = getPos(joints[kinectron.HANDTIPLEFT]);
-    let thumbLeft = getPos(joints[kinectron.THUMBLEFT]);
-
-    // Right Leg
-    let hipRight = getPos(joints[kinectron.HIPRIGHT]);
-    let kneeRight = getPos(joints[kinectron.KNEERIGHT]);
-    let ankleRight = getPos(joints[kinectron.ANKLERIGHT]);
-    let footRight = getPos(joints[kinectron.FOOTRIGHT]);
-
-    // Left Leg
-    let hipLeft = getPos(joints[kinectron.HIPLEFT]);
-    let kneeLeft = getPos(joints[kinectron.KNEELEFT]);
-    let ankleLeft = getPos(joints[kinectron.ANKLELEFT]);
-    let footLeft = getPos(joints[kinectron.FOOTLEFT]);
+  // Draw line for each body
+  for(let b in bps) {
+    if(bps.ppos) {
+      line(bps.ppos.x, bps.ppos.y, bps.pos.x, bps.pos.y);
+    }
   }
 }
 
@@ -87,15 +70,16 @@ function bodyTracked(body) {
 // Scale the data to fit the screen
 // Move it to the center of the screen
 // Return it as a vector
-function getPos(joint) {
-  return createVector((joint.cameraX * width / 2) + width / 2, (-joint.cameraY * width / 2) + height / 2);
+function scaleJoint(joint) {
+  let pos = joint.getPos();
+  return createVector(pos.x * width / 2) + width / 2, (-pos.y * width / 2) + height / 2);
 }
 
 // Draw skeleton
 function drawJoint(joint) {
 
-  //console.log("JOINT OBJECT", joint);
-  let pos = getPos(joint);
+  // Get scaled position for joint
+  let pos = scaleJoint(joint);
 
   //Kinect location data needs to be normalized to canvas size
   stroke(255);

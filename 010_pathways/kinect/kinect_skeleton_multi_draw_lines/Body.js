@@ -39,9 +39,9 @@ class Body {
   }
 
   // Returns position vector for specified joint
-  getPosition(joint) {
+  getPos(joint) {
     //console.log(this.joints[joint].pos);
-    return joints[joint].pos;
+    return joints[joint].getPos();
   }
 
   // Check to see if body has been updated in last 5 seconds

@@ -1,6 +1,7 @@
 /*
 Mimi Yin NYU-ITP
-Drawing lines.
+Drawing lines with the mouse.
+4 approaches.
 */
 
 let mode = 0;
@@ -41,7 +42,6 @@ function draw() {
   // Draw a line from the previous mouse position
   // to the current mouse position
   line(pmouseX, pmouseY, mouseX, mouseY);
-
 }
 
 // Press the mouse to change mode
@@ -55,4 +55,3 @@ function keyPressed(){
   background(255);
 }
 
-  

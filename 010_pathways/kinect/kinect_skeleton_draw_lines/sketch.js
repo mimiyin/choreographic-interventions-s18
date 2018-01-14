@@ -5,9 +5,12 @@ Drawing lines with selected joint in 4 ways
 
 // Declare kinectron
 let kinectron = null;
+// Keep track of selected joint
+let j;
+// Which drawing mode
 let mode;
-let x, y, z;
-let px, py, pz;
+// Store current and previous positions of selected joint
+let pos, ppos;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -22,41 +25,36 @@ function setup() {
   kinectron.startTrackedBodies(bodyTracked);
 
   // Initialize values
-  mode = 1;
+  mode = 0;
+
+  // Start drawing with left hand
+  j = kinectron.HANDLEFT;
 
   // Draw white background
   background(255);
 }
 
-function draw() {
-}
+function draw() {}
 
 function bodyTracked(body) {
   // Get the left hand joint
-  let joint = body.joints[kinectron.HANDLEFT];
+  let joint = body.joints[j];
 
   // Calculate its x,y,z coordinates
-  x = (joint.cameraX * width/2) + width/2;
-  y = (-joint.cameraY * height/2) + height/2;
-  z = joint.cameraZ * 100;
+  pos = scaleJoint(joint);
 
-  // Print out x,y,z values
-  //console.log(joint);
-  //console.log(frameCount + "\tx: " + nfs(x, 0, 2) + "\ty: " + nfs(y, 0, 2) + "\tz: " + nfs(z, 0, 2));
-
-  if(mode < 4 && px != null) {
-  	//console.log("px: " + nfs(px, 0, 2) + "\tpy: " + nfs(py, 0, 2) + "\tpz: " + nfs(pz, 0, 2));
-
-    let speed = dist(px, py, pz, x, y, z);
+  // If there is a previous position
+  if (ppos) {
+    let speed = dist(ppos.x, ppos.y, ppos.z, pos.x, pos.y, pos.z);
     let sw = 1;
 
     // 3 ways to set strokeweight according to speed.
-    switch(mode){
+    switch (mode) {
       case 1:
-        sw = speed/10;
+        sw = speed / 10;
         break;
       case 2:
-        sw = 100/speed;
+        sw = 100 / speed;
         break;
       case 3:
         sw = map(speed, 0, 100, 10, 0);
@@ -66,51 +64,48 @@ function bodyTracked(body) {
     // Draw the line
     stroke(0);
     strokeWeight(sw);
-    line(px, py, x, y);
+    line(ppos.x, ppos.y, pos.x, pos.y);
   }
 
   // Store current location for next frame
-  px = x;
-  py = y;
-  pz = z;
-
+  ppos = pos;
 }
 
-// Draw skeleton
+// Draw each joint
 function drawJoint(joint) {
-
-  //console.log("JOINT OBJECT", joint);
-  x = (joint.cameraX * width/2) + width/2;
-  y = (-joint.cameraY * height/2) + height/2;
-  z = joint.cameraZ * 100;
-
+  let pos = scaleJoint(joint);
+  noStroke();
   fill(255);
-  push();
-  //Kinect location data needs to be normalized to canvas size
-  translate(x, y);
-	ellipse(0, 0, 10, 10);
-  pop();
+  ellipse(pos.x, pos.y, 10, 10);
 }
 
-function keyPressed(){
+function keyPressed() {
   // Use RIGHT/LEFT arrow keys to change selected joint
-  switch(keyCode){
+  // ENTER to erase
+  switch (keyCode) {
     case UP_ARROW:
       mode++;
-      mode%=4;
+      mode %= 4;
       break;
     case LEFT_ARROW:
-    	j--;
-  		if(j < 0) j = 25-1;
+      j--;
     case RIGHT_ARROW:
-    	j++;
-  		j%=25;
+      j++;
       break;
     case ENTER:
       background(255);
       break;
   }
+
+  // There are only 25 joints
+  j = constrain(j, 0, 24);
 }
 
-
-
+// Scale joint position data to screen
+function scaleJoint(joint) {
+  return {
+    x: (joint.cameraX * width / 2) + width / 2,
+    y: (-joint.cameraY * width / 2) + height / 2,
+    z: joint.cameraZ * 100;
+  }
+}

@@ -1,18 +1,22 @@
 /*
 Mimi Yin NYU-ITP
-Drawing skeleton joints and bones.
- */
+Drawing lines with selected joint in 4 ways
+*/
 
 // Declare kinectron
 let kinectron = null;
-let bm = new BodyManager();
-let bps = {};
+// Keep track of selected joint
+let j;
+// Which drawing mode
+let mode;
+// Store current and previous positions of selected joint for all bodies
+let bodies = {};
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
   // Define and create an instance of kinectron
-  kinectron = new Kinectron("192.168.0.112");
+  kinectron = new Kinectron("192.168.0.117");
 
   // Connect with application over peer
   kinectron.makeConnection();
@@ -20,69 +24,105 @@ function setup() {
   // Request all tracked bodies and pass data to your callback
   kinectron.startTrackedBodies(bodyTracked);
 
-  // Draw black background
-  background(0);
-}
+  // Initialize values
+  mode = 0;
 
-function draw() {
+  // Start drawing with left hand
+  j = kinectron.HANDLEFT;
+
+  // Draw white background
   background(255);
-
-  // Get all the joints off the tracked body and do something with them
-  let bodies = bm.getBodies();
-  for (let b in bodies) {
-    let body = bodies[b];
-    // Draw all the joints
-    let joints = body.getJoints();
-    for (let j = 0; j < joints.length; j++) {
-      drawJoint(joints[j]);
-    }
-
-    // Get the head
-    let head = scaleJoint(joints[kinectron.HEAD]);
-
-    // If the body already exists...
-    if(b in bps) {
-      bps[b].ppos = bps.pos;
-    }
-    // Otherwise, create a new record for it
-    else {
-      bps[b] = {};
-    }
-    // Store the current position either way
-    bps[b].pos = head;
-  }
-
-  // Draw line for each body
-  for(let b in bps) {
-    if(bps.ppos) {
-      line(bps.ppos.x, bps.ppos.y, bps.pos.x, bps.pos.y);
-    }
-  }
 }
+
+function draw() {}
 
 function bodyTracked(body) {
+  // Get id of body
   let id = body.trackingId;
-  // When there is a new body
-  if (bm.isTracking(id)) bm.update(body);
-  else bm.add(body);
+
+  // Get the left hand joint
+  let joint = body.joints[j];
+
+  // Create a record for the body if body is new
+  if(!(id in bodies)) {
+    bodies[id] = {};
+  }
+
+  // Calculate its x,y,z coordinates
+  bodies[id].pos = scaleJoint(joint);
+
+  // If there is a previous position
+  if (bodies[id].ppos) {
+
+    let px = bodies[id].ppos.x;
+    let py = bodies[id].ppos.y;
+    let pz = bodies[id].ppos.z;
+    let x = bodies[id].ppos.x;
+    let y = bodies[id].ppos.y;
+    let z = bodies[id].ppos.z;
+
+    // Calculate speed of joint
+    let speed = dist(px, py, pz, x,y,z);
+    let sw = 1;
+
+    // 3 ways to set strokeweight according to speed.
+    switch (mode) {
+      case 1:
+        sw = speed / 10;
+        break;
+      case 2:
+        sw = 100 / speed;
+        break;
+      case 3:
+        sw = map(speed, 0, 100, 10, 0);
+        break;
+    }
+
+    // Draw the line
+    stroke(0);
+    strokeWeight(sw);
+    line(px, py, x, y);
+  }
+
+  // Store current location for next frame
+  body.ppos = body.pos;
 }
 
-// Scale the data to fit the screen
-// Move it to the center of the screen
-// Return it as a vector
-function scaleJoint(joint) {
-  let pos = joint.getPos();
-  return createVector(pos.x * width / 2) + width / 2, (-pos.y * width / 2) + height / 2);
-}
-
-// Draw skeleton
+// Draw each joint
 function drawJoint(joint) {
-
-  // Get scaled position for joint
   let pos = scaleJoint(joint);
+  noStroke();
+  fill(255);
+  ellipse(pos.x, pos.y, 10, 10);
+}
 
-  //Kinect location data needs to be normalized to canvas size
-  stroke(255);
-  strokeWeight(5);
-  point(pos.x, pos.y);
+function keyPressed() {
+  // Use RIGHT/LEFT arrow keys to change selected joint
+  // ENTER to erase
+  switch (keyCode) {
+    case UP_ARROW:
+      mode++;
+      mode %= 4;
+      break;
+    case LEFT_ARROW:
+      j--;
+    case RIGHT_ARROW:
+      j++;
+      break;
+    case ENTER:
+      background(255);
+      break;
+  }
+
+  // There are only 25 joints
+  j = constrain(j, 0, 24);
+}
+
+// Scale joint position data to screen
+function scaleJoint(joint) {
+  return {
+    x: (joint.cameraX * width / 2) + width / 2,
+    y: (-joint.cameraY * width / 2) + height / 2,
+    z: joint.cameraZ * 100;
+  }
 }

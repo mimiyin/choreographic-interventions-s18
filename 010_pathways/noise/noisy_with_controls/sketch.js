@@ -1,17 +1,26 @@
 /* Mimi Yin, NYU-ITP
 Noisy pathways with controls.
+
+- mouseX controls range (speed) of motion
+- mouseY controls tspeed (how quickly we skip along noise graph)
+
+When mouse is pressed:
+- mouse position relative to center controls direction and extent of drift
+When key is pressed:
+- mouseY controls yscl (verticality)
 */
 
+// Store x,y coordinates of current location
 let x, y;
+// Store x,y coordinates of previous location
 let px, py;
+// Store current xspeed and yspeed
 let xspeed, yspeed;
+// Current position in noise graph
 let t;
+// How quickly we skip along noise graph
 let tspeed;
 
-// Mode of control for arrow keys
-let mode;
-// # of frames to wait before changing direction.
-let interval;
 // Range of random, relative range of vertical random
 let range, yscl;
 // How much to shift right/left, up/down
@@ -28,28 +37,26 @@ function setup() {
   t = 0;
   tspeed = 0.01;
 
-  mode = 0;
-  interval = 1;
   range = 4;
   yscl = 1;
   xshift = .5;
   yshift = .5;
 
   noStroke();
-  background(0);
-
 }
 
 function draw() {
 
-  //Change direction
-  if (frameCount % interval == 0) {
-		// Move forward along noise graph
-    t += tspeed;
+  // Draw very transparent background every frame
+  // to create fade-out effect
+  background(0, 10);
 
-    xspeed = (noise(t)-xshift)*range; //shift median to right/left
-    yspeed = (noise(t*2)-yshift)*range*yscl //shift median to up/down
-  }
+  // Move forward along noise graph
+  t += tspeed;
+
+  xspeed = (noise(t) - xshift) * range; //shift median to right/left
+  yspeed = (noise(t + 100) - yshift) * range * yscl //shift median to up/down
+
 
   // Move
   x += xspeed;
@@ -63,148 +70,39 @@ function draw() {
   px = x;
   py = y;
 
-  // Print control values to screen
-  noStroke();
-  fill(0);
-  rect(0, 0, 500, 120);
+  // Wrap around screen
+  if (x < 0 || x > width || y < 0 || y > height) {
+    if (x < 0) x = width;
+    else if (x > width) x = 0;
+    if (y < 0) y = height;
+    else if (y > height) y = 0;
+
+    // Don't draw line when wrapping around
+    px = x;
+    py = y;
+  }
+
+  // Draw a landmark in the center
   fill(255);
-  textSize(18);
-  text("Press ESC to change mode: " + mode, 10, 20);
-  text("mode 0. interval (UP/DWN): " + interval + "\trange (RT/LFT): " + nfs(range, 0, 2), 10, 40);
-  text("mode 1. yscl (UP/DWN): " + nfs(yscl, 0, 2) + "\ttspeed (RT/LFT): " + nfs(tspeed, 0, 2), 10, 60);
-  text("mode 2. yshift (DWN/UP): " + nfs(yshift, 0, 2) + "\txshift (RT/LFT): " + nfs(xshift, 0, 2), 10, 80);
-  text("Press RETURN to clear canvas.", 10, 100);
+  noStroke();
+  rect(width / 2, height / 2, 10, 10);
 
-}
-
-function keyPressed() {
-  // Presets
-  switch(key) {
-    //  Big tspeed, more like random
-    case '0':
-      interval = 1;
-      range = 20;
-      yscl = 1;
-      tspeed = 1;
-      xshift = .5;
-      yshift = .5;
-      break;
-    // "Normal"
-    case '1':
-      interval = 1;
-      range = 4;
-      yscl = 1;
-      tspeed = 0.01;
-      xshift = .5;
-      yshift = .5;
-      break;
-    // Fast
-    case '2':
-      interval = 1;
-      range = 20;
-      yscl = 1;
-      tspeed = 0.01;
-      xshift = .5;
-      yshift = .5;
-      break;
-    // Only changes every second. Slow.
-    case '3':
-      interval = 60;
-      range = 2;
-      yscl = 1;
-      tspeed = 0.01;
-      xshift = .5;
-      yshift = .5;
-      break;
-    // More vertical.
-    case '4':
-      interval = 1;
-      range = 4;
-      yscl = 2;
-      tspeed = 0.01;
-      xshift = .5;
-      yshift = .5;
-    	break;
-    // Moving towards upper-right.
-    case '5':
-      interval = 1;
-      range = 4;
-      yscl = 1;
-      xshift = .2;
-      yshift = .7;
-      break;
+  // Controls
+  if (keyIsPressed) {
+    //mouseY controls yscl (verticality)
+    yscl = mouseY / height;
   }
-
-  switch (keyCode){
-    case ESCAPE:
-      mode++;
-      mode %= 3;
-      break;
-    // Reset
-    case RETURN:
-      background(0);
-      x = width/2;
-      y = height/2;
-      break;
+  // Mouse position relative to center sets directional drift
+  else if (mouseIsPressed) {
+    // Horizontal shift
+    xshift = (width-mouseX) / width;
+    // Vertical shift
+    yshift = (height-mouseY) / height;
   }
-
-  switch (mode) {
-    case 0:
-      switch (keyCode) {
-        case UP_ARROW:
-          interval++;
-          break;
-        case DOWN_ARROW:
-          interval--;
-          break;
-        case RIGHT_ARROW:
-          range++;
-          break;
-        case LEFT_ARROW:
-          range--;
-          break;
-      }
-      interval = bottomOut(interval, 1);
-      range = bottomOut(range, 0);
-      break;
-    case 1:
-      switch (keyCode) {
-        case UP_ARROW:
-          yscl += 0.1;
-          break;
-        case DOWN_ARROW:
-          yscl -= 0.1;
-          break;
-        case RIGHT_ARROW:
-          tspeed += 0.01;
-          break;
-        case LEFT_ARROW:
-          tspeed -= 0.01;
-          break;
-      }
-      yscl = bottomOut(yscl, 0);
-      tspeed = bottomOut(tspeed, 0.01);
-      break;
-    case 2:
-      switch (keyCode) {
-        case RIGHT_ARROW:
-          xshift += 0.1;
-          break;
-        case LEFT_ARROW:
-          xshift -= 0.1;
-          break;
-        case UP_ARROW:
-          yshift += 0.1;
-          break;
-        case DOWN_ARROW:
-          yshift -= 0.1;
-          break;
-      }
-      break;
+  else {
+    //mouseX controls range (speed)
+    range = 100 * mouseX / width;
+    //mouseY controls tspeed(how fast we skip down noise graph)
+    tspeed = mouseY / height;
   }
-}
-
-// Bottom out at...
-function bottomOut(p, bottom) {
-  return p < bottom ? bottom : p;
 }

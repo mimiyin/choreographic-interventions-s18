@@ -34,7 +34,8 @@ let joints = [
   "HANDTIPLEFT",
   "THUMBLEFT",
   "HANDTIPRIGHT",
-  "THUMBRIGHT"];
+  "THUMBRIGHT"
+];
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
@@ -54,32 +55,27 @@ function setup() {
   // Start by tracking left hand
   j = kinectron.HANDLEFT;
 
+  // Draw black background
   background(0);
 }
 
 function draw() {
-  //background(0);
 }
 
 function bodyTracked(body) {
-	background(0);
+  background(0);
 
   // Draw all the joints
   kinectron.getJoints(drawJoint);
 
-  // Get all the joints off the tracked body and do something with them
+  // Get the selected joint
   let joint = body.joints[j];
-  x = (joint.cameraX * width/2) + width/2;
-  y = (-joint.cameraY * height/2) + height/2;
+  let pos = scaleJoint(joint);
 
   noStroke();
   fill(255);
-  push();
-  //Kinect location data needs to be normalized to canvas size
-  translate(x, y);
-  // Draw a bigger ellipse for the selected joint
-  ellipse(0, 0, 50, 50);
-  pop();
+  // Draw a bigger, red ellipse for the selected joint
+  ellipse(pos.x, pos.y, 50, 50);
 
   // Print which joint is selected
   stroke(255);
@@ -88,34 +84,32 @@ function bodyTracked(body) {
 
 }
 
-// Draw skeleton
+// Draw each joint
 function drawJoint(joint) {
-
-  //console.log("JOINT OBJECT", joint);
-  x = (joint.cameraX * width/2) + width/2;
-  y = (-joint.cameraY * height/2) + height/2;
-
+  let pos = scaleJoint(joint);
   noStroke();
   fill(255);
-  push();
-  //Kinect location data needs to be normalized to canvas size
-  translate(x, y);
-	ellipse(0, 0, 10, 10);
-  pop();
+  ellipse(pos.x, pos.y, 10, 10);
 }
 
-function keyPressed(){
+function keyPressed() {
   // Use RIGHT/LEFT arrow keys to change selected joint
-  switch(keyCode){
+  switch (keyCode) {
     case LEFT_ARROW:
     	j--;
-  		if(j < 0) j = 25-1;
     case RIGHT_ARROW:
     	j++;
-  		j%=25;
       break;
   }
+
+  // There are only 25 joints
+  j = constrain(j, 0, 24);
 }
 
-
-
+// Scale joint position data to screen
+function scaleJoint(joint) {
+  return {
+    x: (joint.cameraX * width / 2) + width / 2,
+    y: (-joint.cameraY * width / 2) + height / 2,
+  }
+}

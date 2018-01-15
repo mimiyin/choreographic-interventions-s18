@@ -22,6 +22,7 @@ function draw() {
   // Move with speed set by sine wave
   x+=sin(a)*(width/2)*aspeed;
 
+  // Draw circle
   fill(0);
   noStroke();
   ellipse(x, height/2, 10, 10);

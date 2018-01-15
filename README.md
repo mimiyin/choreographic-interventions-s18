@@ -55,14 +55,18 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ## Week 1: Introduction
 
 ### Questions
+   * Why are we here?
    * What is interaction?
-   * Do you need sensors to be interactive?
-   * Is programming an artistic medium?
-   * Why use technology at all?
+      * Do you need sensors to be interactive?
+   * What is a choreographic intervention?
+   * What are the parameters of choreography?
+   * How is code an expressive medium?
 
 ### In-class
-   * Introduction to programming concepts
-   * Embodying code
+   * Analyze how we all entered the studio.
+   * Introduce ourselves: What's your favorite resting position?
+   * Introduction to computational thinking through dynamic drawing
+   * Make a duet between a dancer and a drawer
 
 ### Assignment
    * ITPers: Watch [Forsythe Technique Videos](https://www.youtube.com/user/GrandpaSafari/videos): They range from 10s to 1 minute. Very short!
@@ -126,11 +130,13 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ## Week 5 Form + Substance: Re-architecture
 
 ### Questions
-   * What are the all the ways the body can fold?
-   * How is the body symmetrical, how is it not?
-   * How would you move if your head was in between your knees?
+   * What are all the ways the body can fold?
+   * What are all the ways the body can spiral?
+   * What are all the ways the body is (as)symmetrical.
+   * How would you walk if your head was facing back, in between your knees?
 
-### Tech
+### In-class
+   * Re-designing the skeleton in 2D and 3D
    * Review Kinect and Kinectron
    * Vector Math
    * 2D v. 3D
@@ -150,12 +156,15 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### In-class
    * Show and tell clothes.
    * Play with shadows.
-   * Play with Kinect body contours.
-   * Play with Kinect depthMap.
+   * Play with Kinect funhouse mirrors
+     * The Gumby Effect: Bending body contours.
+     * Prickly Pears: Visualizing the sensation of pins and needles.
+     * Rei Kawakubo: Bulging and pinching your insides.
 
 ### Assignment
    * Create a mirror that distorts or re-architects the body to move in new and unexpected ways.
    * Be clear about how you think the mirror is going to make people move.
+   * You should test your mirror thoroughly to know what it is capable of. But others will be first to demo it.
 
 ***
 
@@ -181,7 +190,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 * Play with visual spaces.
    * Interacting with dynamic spaces.
    * Defining spaces with bodies.
-      * Mapping 3D Kinect data to a 2D floor space
+      * Mapping 3D Kinect data to a 2D floor projection
    * Interacting with sound terrains.
       * Multi-dimensional mapping to create terrains
       * Mapping linear motion to create non-linear terrains
@@ -199,10 +208,10 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * What is the timing and pacing of [Gyorgy Ligeti's Poeme Symphonique](https://www.youtube.com/watch?v=QCp7bL-AWvw) Is there rhythm?
 
 ### In-class
-   * Coding Pacing
-      * Metronomes with % (modulo)
-      * Human metronomes
-   * Designing interactions to play with time
+   * Feeling the tempo: Walking _Grave_ to _Prestissimo_
+   * Coding Pacing: Building interactive metronomes with % (modulo)
+   * Designing interactions that encourage you to play with pacing
+      * Building polyrhythms with interactive metronomes
       * Dynamic pacing with [Zeno's Paradox](https://en.wikipedia.org/wiki/Zeno%27s_paradoxes) and Decay
    * Discuss final projects
 

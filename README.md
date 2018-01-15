@@ -67,27 +67,29 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### Assignment
    * ITPers: Watch [Forsythe Technique Videos](https://www.youtube.com/user/GrandpaSafari/videos): They range from 10s to 1 minute. Very short!
       * 16 videos that start with Forsythe-Writing
-      * 23 videos that starte with Forsythe-Lines
+      * 23 videos that start with Forsythe-Lines
       * [Avoidance](https://www.youtube.com/watch?v=cqGyFiEXXIQ)
       * [Line](https://www.youtube.com/watch?v=aOd0PtgS8KU)
    * Everyone: Read chapter 2 of [Viewpoints](http://www.bam.org/media/4813887/anne-bogart-and-tina-landau-the-viewpoints-book.pdf). What does a framework for movement look like? What are the parameters of choreography?
-   * Everyone: Review Chapters 0 and complete sections 1.0 - 1.3 of Chapter 1 of the Workbook
+   * Everyone: Review Chapters 0 and complete sections 1.0 - 1.2 of Chapter 1 of the Workbook
 
 ***
-   
+
 ## Week 2: Interacting with Pathways
 
 ### Questions
    * What are all the ways to interact with a pathway?
    * How do you choreograph code?
+   * The dramaturgy of lines and random().
 
 ### In-class
    * Interacting with a static pathway (rope)
    * Interacting with a moving pathway (live drawing)
-   * Choreographing linear, random and noisy pathways
-   
+   * Deconstructing linear and random() motion
+   * Choreographing linear and random pathways
+
 ### Assignment
-   * Complete section 1.4 of Chapter 1 of the Workbook.
+   * Complete sections 1.3-1.4 of Chapter 1 of the Workbook.
    * Create a 1 minute duet using a live drawer and a dancer.
 
 ***
@@ -96,21 +98,25 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 
 ### Questions
    * How do you choreograph code? cont'd
-   
+   * The dramaturgy of noise() and circles.
+
 ### In-class
-   * Crit duets
-   * Choreographing circular pathways
-   * Hello Kinect v.2 and Kinectron!
+   * Deconstructing noise() and circular motion
+   * Choreographing noisy and circular pathways
 
 ### Assignment
    * Create a 1 minute duet between a programmed pathway and a dancer.
       * Pick from pathways we've discussed: linear, random, noisy, circular.
       * You can use more than 1 kind of pathway.
       * If you use a new kind of pathway (e.g. fractals), include an analysis of that pathway comparable to what we have done in class so that you are on comparable conceptual footing.
-* Use of Kinect is optional
 
 ***
-## Week 4 Show Duets, Preview of Week 5
+## Week 4 Show 2 Duets, Hello Kinect
+
+### In-class
+  * Introduction to Kinect v.2 camera
+  * Kinectron server + p5.js
+  * Drawing with the joints of the body
 
 ### Assignment
    * Read Chapter 7 of [Dynamic Alignment](https://books.google.com/books?id=CBwV_g8DhEMC&lpg=PA2&ots=nRQ2JS3SWv&dq=dynamic%20alignment%20chapters&pg=PP1#v=onepage&q&f=false)
@@ -132,7 +138,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### Assignment
    * Bring a piece of clothing that changes the shape of your body to class next week.
    * Complete Sections 2.3-2.4 of Chapter 2 of the Workbook
- 
+
 ***
 
 ## Week 6 Form + Substance: Distortion
@@ -146,12 +152,11 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Play with shadows.
    * Play with Kinect body contours.
    * Play with Kinect depthMap.
-   * Play with slitscan.
 
 ### Assignment
    * Create a mirror that distorts or re-architects the body to move in new and unexpected ways.
    * Be clear about how you think the mirror is going to make people move.
-   
+
 ***
 
 ## Week 7: Play with Mirrors, Preview of Week 8
@@ -171,13 +176,16 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * What is the difference between a space and a terrain?
    * How do terrains influence movement?
    * Can we define virtual terrains with sound?
-   
+
 ### In-class
-   * Play with visual spaces.
-      * Interacting with dynamic spaces.
-      * Defining spaces with bodies.
-      * Interacting with sound terrains.
-         
+* Play with visual spaces.
+   * Interacting with dynamic spaces.
+   * Defining spaces with bodies.
+      * Mapping 3D Kinect data to a 2D floor space
+   * Interacting with sound terrains.
+      * Multi-dimensional mapping to create terrains
+      * Mapping linear motion to create non-linear terrains
+
 ### Assignment
    * Read pgs. 36-42 (Tempo and Duration) 147-149 (Jo Ha Kyu) of [The Viewpoints Book](http://www.amazon.com/The-Viewpoints-Book-Practical-Composition/dp/1559362413)
    * Complete Chapter 4 of the Workbook
@@ -195,7 +203,6 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * Metronomes with % (modulo)
       * Human metronomes
    * Designing interactions to play with time
-      * Tracking Position v. Speed v. Acceleration
       * Dynamic pacing with [Zeno's Paradox](https://en.wikipedia.org/wiki/Zeno%27s_paradoxes) and Decay
    * Discuss final projects
 

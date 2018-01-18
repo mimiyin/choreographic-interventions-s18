@@ -1,6 +1,9 @@
 /*
 Mimi Yin NYU-ITP
-Drawing lines with selected joint in 4 ways
+Drawing lines with the selected joint in 4 modes.
+Use LEFT/RIGHT arrow keys to change selected joint.
+Use UP/DOWN arrow keys to change mode.
+Press ENTER to erase.
 */
 
 // Declare kinectron
@@ -101,7 +104,10 @@ function keyPressed() {
   j = constrain(j, 0, 24);
 }
 
-// Scale joint position data to screen
+// Scale the joint position data to fit the screen
+// 1. Move it to the center of the screen
+// 2. Flip the y-value upside down
+// 3. Return it as an object literal
 function scaleJoint(joint) {
   return {
     x: (joint.cameraX * width / 2) + width / 2,

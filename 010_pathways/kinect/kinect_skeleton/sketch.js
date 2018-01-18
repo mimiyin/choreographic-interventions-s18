@@ -1,7 +1,7 @@
 /*
 Mimi Yin NYU-ITP
-Drawing skeleton joints
-Showing selected joint
+Drawing skeleton joints with selected joint.
+Use LEFT/RIGHT arrow keys to select joint.
  */
 
 // Declare kinectron
@@ -42,9 +42,6 @@ function setup() {
 
   // Define and create an instance of kinectron
   kinectron = new Kinectron("192.168.0.117");
-
-  // CONNECT TO MIRCROSTUDIO
-  //kinectron = new Kinectron("kinectron.itp.tsoa.nyu.edu");
 
   // Connect with application over peer
   kinectron.makeConnection();
@@ -106,7 +103,10 @@ function keyPressed() {
   j = constrain(j, 0, 24);
 }
 
-// Scale joint position data to screen
+// Scale the joint position data to fit the screen
+// 1. Move it to the center of the screen
+// 2. Flip the y-value upside down
+// 3. Return it as an object literal
 function scaleJoint(joint) {
   return {
     x: (joint.cameraX * width / 2) + width / 2,

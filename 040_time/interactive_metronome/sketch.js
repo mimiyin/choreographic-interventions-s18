@@ -9,7 +9,7 @@ let counter = 0;
 let speeds = [];
 
 function preload() {
- beat = loadSound('clock.mp3');
+ beat = loadSound('clock.wav');
 }
 
 function setup() {

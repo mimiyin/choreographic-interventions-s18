@@ -153,7 +153,6 @@ function bodyTracked(body) {
 // 1. Move it to the center of the screen
 // 2. Flip the y-value upside down
 // 3. Return it as a Vector
-3. Return it as a vector*/
 function scaleJoint(joint) {
   return createVector((joint.cameraX * width / 2) + width / 2, (-joint.cameraY * width / 2) + height / 2);
 }

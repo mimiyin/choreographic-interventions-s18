@@ -67,6 +67,12 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Introduce ourselves: What's your favorite resting position?
    * Introduction to computational thinking through dynamic drawing
    * Make a duet between a dancer and a drawer
+   * Examples:
+      * [Drawing Lines](http://alpha.editor.p5js.org/move.mimi/sketches/ByPtNLI4z) | [Fullscreen](http://alpha.editor.p5js.org/full/ByPtNLI4z)
+         * Drawing Lines 1-Mode-At-A-Time: [0](http://alpha.editor.p5js.org/move.mimi/sketches/SJwTOF8Ez) | [1](http://alpha.editor.p5js.org/move.mimi/sketches/HyNmKKL4f) | [2](http://alpha.editor.p5js.org/move.mimi/sketches/SkEk9KUNM) | [3](http://alpha.editor.p5js.org/move.mimi/sketches/ByPfqt84f)
+      * [Drawing a Trail](http://alpha.editor.p5js.org/move.mimi/sketches/H1flrLLVG) | [Fullscreen](http://alpha.editor.p5js.org/full/H1flrLLVG)
+      * [Zeno's Paradox](http://alpha.editor.p5js.org/move.mimi/sketches/H1NWIIL4z)
+      * [Chapter 0 Introduction.docx - Google Docs](https://docs.google.com/document/d/1NPHHaCppnEJoR90W6ZOtrV3JDu1qq5VPCieSIwfQ0Jc/edit?usp=sharing)
 
 ### Assignment
    * ITPers: Watch [Forsythe Technique Videos](https://www.youtube.com/user/GrandpaSafari/videos): They range from 10s to 1 minute. Very short!
@@ -74,8 +80,8 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * 23 videos that start with Forsythe-Lines
       * [Avoidance](https://www.youtube.com/watch?v=cqGyFiEXXIQ)
       * [Line](https://www.youtube.com/watch?v=aOd0PtgS8KU)
-   * Everyone: Read chapter 2 of [Viewpoints](http://www.bam.org/media/4813887/anne-bogart-and-tina-landau-the-viewpoints-book.pdf). What does a framework for movement look like? What are the parameters of choreography?
-   * Everyone: Review Chapters 0 and complete sections 1.0 - 1.2 of Chapter 1 of the Workbook
+   * Everyone: Read chapter 2 of [Viewpoints](http://www.bam.org/media/4813887/anne-bogart-and-tina-landau-the-viewpoints-book.pdf).
+   * Everyone: Review [Chapter 0](https://docs.google.com/document/d/1NPHHaCppnEJoR90W6ZOtrV3JDu1qq5VPCieSIwfQ0Jc/edit?usp=sharing) and complete sections 1.0 - 1.2 of [Chapter 1](https://docs.google.com/document/d/1SUp-7bKs1Cvez7pBSe3I0tTccWTw2q0TqgK7nyGI8cM/edit?usp=sharing) of the Workbook
 
 ***
 

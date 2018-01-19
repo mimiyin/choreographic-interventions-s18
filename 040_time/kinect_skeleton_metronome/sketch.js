@@ -1,6 +1,7 @@
 /*
 Mimi Yin NYU-ITP
-Mapping Kinect Skeleton locations to floor projection.
+Kinect Skeleton - Interactive Metronome
+Averages speed of all joints to set bpm
  */
 
 // Declare kinectron

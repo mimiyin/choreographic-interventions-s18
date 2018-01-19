@@ -1,7 +1,9 @@
 /*
 Mimi Yin NYU-ITP
-Mapping Kinect Skeleton locations to floor projection.
- */
+Kinect Skeleton
+Averages speed of all head joints to
+eventually adjust volume of sound.
+*/
 
 // Declare kinectron
 let kinectron = null;

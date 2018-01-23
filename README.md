@@ -38,7 +38,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 - [The Nature of Code Book](http://natureofcode.com/book/)
 
 ### Dance + Movement Resources
-- Select chapters from [The Viewpoints Book](http://www.amazon.com/The-Viewpoints-Book-Practical-Composition/dp/1559362413) | [PDF](http://www.bam.org/media/4813887/anne-bogart-and-tina-landau-the-viewpoints-book.pdf)
+- Select chapters from [The Viewpoints Book](http://www.amazon.com/The-Viewpoints-Book-Practical-Composition/dp/1559362413) | [PDF](https://stilluntitledproject.files.wordpress.com/2014/11/anne-bogart-and-tina-landau-the-viewpoints-book.pdf)
 - Select chapters from [Dynamic Alignment Through Imagery](http://www.amazon.com/Dynamic-Alignment-Through-Imagery-Edition/dp/0736067892) | [Google Books](https://books.google.com/books?id=CBwV_g8DhEMC&lpg=PA2&ots=nRQ2JS3SWv&dq=dynamic%20alignment%20chapters&pg=PP1#v=onepage&q&f=false)
 - [Forsythe Technique Videos on Youtube](https://www.youtube.com/user/GrandpaSafari/videos)
 

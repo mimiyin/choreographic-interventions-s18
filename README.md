@@ -95,7 +95,14 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Interacting with a moving pathway (live drawing)
    * Deconstructing linear and random() motion
    * Choreographing linear and random pathways
-
+   * Examples
+      * [Linear Pathway](http://alpha.editor.p5js.org/move.mimi/sketches/rJWBguUNf)
+      * [Linear Pathway - Deconstructed](http://alpha.editor.p5js.org/move.mimi/sketches/rJnOzuI4M)
+      * Linear Pathway with Controls: [Code](http://alpha.editor.p5js.org/move.mimi/sketches/rkMpbedVM) | [Fullscreen](http://alpha.editor.p5js.org/full/rkMpbedVM)
+      * [Random Pathway](http://alpha.editor.p5js.org/move.mimi/sketches/HkL0VOUVf)
+      * [Graphing Random](http://alpha.editor.p5js.org/move.mimi/sketches/SkwF9OLEM)
+      * Random Pathway with Controls: [Code](http://alpha.editor.p5js.org/full/ByBuJtIEz) | [Fullscreen](http://alpha.editor.p5js.org/move.mimi/sketches/ByBuJtIEz)
+      
 ### Assignment
    * Complete sections 1.3-1.4 of Chapter 1 of the Workbook.
    * Create a 1 minute duet using a live drawer and a dancer.

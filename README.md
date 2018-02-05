@@ -133,6 +133,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Circles and Sin/Cos and Tan](http://alpha.editor.p5js.org/move.mimi/sketches/Sk3TEiUEM
       * [Violin Fase](https://www.youtube.com/watch?v=i36Qhn7NhoA)
       * [Polar Roses](http://alpha.editor.p5js.org/move.mimi/sketches/HJTDNYKVf)
+      * [Timing things with frameCount and %](http://alpha.editor.p5js.org/move.mimi/sketches/rJAA5KkBG)
 
 ### Assignment
    * Create a 1 minute duet between a programmed pathway and a dancer.

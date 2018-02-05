@@ -130,10 +130,13 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Circles and Sin/Cos](http://alpha.editor.p5js.org/move.mimi/sketches/rJ_vtcUNz)
       * Circular with Controls: [Code](http://alpha.editor.p5js.org/move.mimi/sketches/Sy7iKoIEf) | [Code](http://alpha.editor.p5js.org/full/Sy7iKoIEf)
       * [Sine for Speed](http://alpha.editor.p5js.org/move.mimi/sketches/B1qna5LVM)
-      * [Circles and Sin/Cos and Tan](http://alpha.editor.p5js.org/move.mimi/sketches/Sk3TEiUEM
-      * [Violin Fase](https://www.youtube.com/watch?v=i36Qhn7NhoA)
-      * [Polar Roses](http://alpha.editor.p5js.org/move.mimi/sketches/HJTDNYKVf)
+      * [Circles and Sin/Cos and Tan](http://alpha.editor.p5js.org/move.mimi/sketches/Sk3TEiUEM)
+      * [Polar Roses](https://en.wikipedia.org/wiki/Rose_(mathematics))
+      * [Anne Teresa de Keersmaeker: Violin Fase](https://www.youtube.com/watch?v=i36Qhn7NhoA)
+      * [Polar Rose-ish](http://alpha.editor.p5js.org/move.mimi/sketches/HJTDNYKVf)
+      * [Pina Bausch: La Prima Vez](https://www.youtube.com/watch?v=mrHt6Ob9-3A)
       * [Timing things with frameCount and %](http://alpha.editor.p5js.org/move.mimi/sketches/rJAA5KkBG)
+      * [Pathways in Visual Art](https://drive.google.com/drive/folders/18-ahAJQ1ogq1wANzjwBVjXzJNHC7CCrG)
 
 ### Assignment
    * Create a 1 minute duet between a programmed pathway and a dancer.

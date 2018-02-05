@@ -120,6 +120,19 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### In-class
    * Deconstructing noise() and circular motion
    * Choreographing noisy and circular pathways
+   * Examples
+      * [Noisy Pathway](http://alpha.editor.p5js.org/move.mimi/sketches/ryi5E984G)
+      * [Gaga](https://www.youtube.com/watch?v=OGPG1QL1vJc)
+      * [Graphing Noise](http://alpha.editor.p5js.org/move.mimi/sketches/H16ZQ98Ez)
+      * Noisy with Controls: [Code](http://alpha.editor.p5js.org/move.mimi/sketches/r11eUqI4G) | [Fullscreen](http://alpha.editor.p5js.org/full/r11eUqI4G)
+      * [Circular Pathway](http://alpha.editor.p5js.org/move.mimi/sketches/rJSP_5ING)
+      * [Circle with Tangents](http://alpha.editor.p5js.org/move.mimi/sketches/r1HaDcLEz)
+      * [Circles and Sin/Cos](http://alpha.editor.p5js.org/move.mimi/sketches/rJ_vtcUNz)
+      * Circular with Controls: [Code](http://alpha.editor.p5js.org/move.mimi/sketches/Sy7iKoIEf) | [Code](http://alpha.editor.p5js.org/full/Sy7iKoIEf)
+      * [Sine for Speed](http://alpha.editor.p5js.org/move.mimi/sketches/B1qna5LVM)
+      * [Circles and Sin/Cos and Tan](http://alpha.editor.p5js.org/move.mimi/sketches/Sk3TEiUEM
+      * [Violin Fase](https://www.youtube.com/watch?v=i36Qhn7NhoA)
+      * [Polar Roses](http://alpha.editor.p5js.org/move.mimi/sketches/HJTDNYKVf)
 
 ### Assignment
    * Create a 1 minute duet between a programmed pathway and a dancer.

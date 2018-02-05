@@ -112,6 +112,6 @@ function scaleJoint(joint) {
   return {
     x: (joint.cameraX * width / 2) + width / 2,
     y: (-joint.cameraY * width / 2) + height / 2,
-    z: joint.cameraZ * 100;
+    z: joint.cameraZ * 100
   }
 }

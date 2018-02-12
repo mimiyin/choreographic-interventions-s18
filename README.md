@@ -151,8 +151,18 @@ Each topic will be introduced through paper-based drawing exercises and code exa
   * Introduction to Kinect v.2 camera
   * Kinectron server + p5.js
   * Drawing with the joints of the body
+  * Examples
+     * [Kinect Skeleton](http://alpha.editor.p5js.org/move.mimi/sketches/rJPcXh84z)
+     * Kinect Skeleton - Draw Lines - 4 modes: [Code](http://alpha.editor.p5js.org/move.mimi/sketches/ByQxNn8NG) | [Fullscreen](http://alpha.editor.p5js.org/full/ByQxNn8NG)
+     * Kinect Skeleton - Control Noise: [Code](http://alpha.editor.p5js.org/move.mimi/sketches/BJtH8dsIz) | [Fullscreen](http://alpha.editor.p5js.org/full/BJtH8dsIz)
+     * Kinect Skeleton - Draw Lines - Multiple Bodies: [Code](http://alpha.editor.p5js.org/move.mimi/sketches/BJwpqUAEz) | [Fullscreen](http://alpha.editor.p5js.org/full/BJwpqUAEz)
 
 ### Assignment
+   * Watch + Read:
+      * [Ghostcatching by Bill T. Jones](https://www.youtube.com/watch?v=aL5w_b-F8ig)
+      * [Biped by Merce Cunningham](https://www.youtube.com/watch?v=a-QMlTsNtxM)
+      * [Public Collection by Alexandra Pirici & Manuel Pelmus](https://www.youtube.com/watch?v=UoHtaPRFoPo)
+      * [Pirici @New Museum](https://www.nytimes.com/2018/02/09/arts/dance/co-natural-alexandra-pirici-new-museum.html)
    * Read Chapter 7 of [Dynamic Alignment](https://books.google.com/books?id=CBwV_g8DhEMC&lpg=PA2&ots=nRQ2JS3SWv&dq=dynamic%20alignment%20chapters&pg=PP1#v=onepage&q&f=false)
    * Complete Sections 2.0-2.2 of Chapter 2 of the Workbook
 ***

@@ -163,8 +163,8 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Biped by Merce Cunningham](https://www.youtube.com/watch?v=a-QMlTsNtxM)
       * [Public Collection by Alexandra Pirici & Manuel Pelmus](https://www.youtube.com/watch?v=UoHtaPRFoPo)
       * [Pirici @New Museum](https://www.nytimes.com/2018/02/09/arts/dance/co-natural-alexandra-pirici-new-museum.html)
-   * Read Chapter 7 of [Dynamic Alignment](https://books.google.com/books?id=CBwV_g8DhEMC&lpg=PA2&ots=nRQ2JS3SWv&dq=dynamic%20alignment%20chapters&pg=PP1#v=onepage&q&f=false)
-   * Complete Sections 2.0-2.2 of Chapter 2 of the Workbook
+   * Read Chapter 7 of Dynamic Alignment: [Google Books](https://books.google.com/books?id=CBwV_g8DhEMC&lpg=PA2&ots=nRQ2JS3SWv&dq=dynamic%20alignment%20chapters&pg=PP1#v=onepage&q&f=false) | [PDF](https://drive.google.com/file/d/0B_lnhZP0dCt8LVZMRXlqNFFQaFk/view?usp=sharing)
+   * Complete Sections 2.0-2.2 of [Chapter 2 of the Workbook](https://docs.google.com/document/d/19AHtqOiLSZQyVnWc6UNZzi75G_JFZLXLwaGtXkjDmRI/edit?usp=sharing)
 ***
 
 ## Week 5 Form + Substance: Re-architecture

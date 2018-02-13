@@ -158,6 +158,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
      * Kinect Skeleton - Draw Lines - Multiple Bodies: [Code](http://alpha.editor.p5js.org/move.mimi/sketches/BJwpqUAEz) | [Fullscreen](http://alpha.editor.p5js.org/full/BJwpqUAEz)
 
 ### Assignment
+   * Play together to draw with the body. [Instructions](https://github.com/mimiyin/choreographic-interventions-s18/wiki/Drawing-With-The-Body)
    * Watch + Read:
       * [Ghostcatching by Bill T. Jones](https://www.youtube.com/watch?v=aL5w_b-F8ig)
       * [Biped by Merce Cunningham](https://www.youtube.com/watch?v=a-QMlTsNtxM)

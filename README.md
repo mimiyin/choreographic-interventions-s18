@@ -3,6 +3,7 @@
 - Spring 2017, Mondays, 7PM-9:55PM in Studio 1 @[111 2nd Avenue](https://goo.gl/maps/FfVoDSMxNSN2)
 - Mimi Yin, mimi.yin@nyu.edu
 - [Office Hours Signup](https://itp.nyu.edu/inwiki/Signup/Mimi)
+- [Book Time in Studio !](https://calendar.google.com/calendar?cid=bnl1LmVkdV9oOHRnbGFjdmpuYWo4NnZ0NWZkaGU0OGI3OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
 
 ### Course Structure | [See introductory description below.](#course-description)
 Over the course of the semester, we will cover 4 topic areas that correspond to 4 parameters of choreography: Pathways, The Body (Form + Substance), Space and Time. Topics will be introduced through movement-based improvisation exercises. Computational strategies will be examined through code examples. For each topic, students will create a small movement study in 2 stages: the first analog, the second computational with the aim of fully exploring how technology "intervened" and changed the choreographic process.

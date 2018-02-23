@@ -181,7 +181,25 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Re-designing the skeleton in 2D and 3D
    * Review Kinect and Kinectron
    * Vector Math
-   * 2D v. 3D
+   * Resources
+      * [Bodies We Collected](https://drive.google.com/drive/folders/1W74yWhmgR1Cly2MFlATCqhzqtrmItiOw?usp=sharing)
+      * [Merce Cunningham and Life Forms](https://www.youtube.com/watch?v=ROmTHBg8Nw0)
+      * [Phantom Limb Effect](https://en.wikipedia.org/wiki/Phantom_limb)
+      * [Martha Graham: Lamentations and Satyric Song](https://www.youtube.com/watch?v=npSXDzqwFJg)
+      * [David Byrne: Stop Making Sense](https://youtu.be/av3j4WStj2A?t=180)
+      * [Tutus: Romantic v. Pancake](https://en.wikipedia.org/wiki/Tutu_(clothing))
+      * [Issey Miyake and Irving Penn](https://www.google.com/search?biw=1291&bih=898&tbm=isch&sa=1&ei=XzCQWpG0N8zb5gLR1KeIBg&q=issey+miyake+irving+penn&oq=issey+miyake+irving+penn&gs_l=psy-ab.3..0j0i24k1.9304.13950.0.14077.13.5.0.8.8.0.67.293.5.5.0....0...1c.1.64.psy-ab..0.13.309...0i13k1.0.vR3PuPm3nNg)
+      * Kinect | [What is it?](https://en.wikipedia.org/wiki/Kinect)
+         * [How depth-sensing works in Kinect2](http://www.gamasutra.com/blogs/DanielLau/20131127/205820/The_Science_Behind_Kinects_or_Kinect_10_versus_20.php) | [Microsoft SDK](https://msdn.microsoft.com/en-us/library/dn799271.aspx) | [Kinect Demo](http://123kinect.com/everything-kinect-2-one-place/43136/)
+         * [Kinectron Library](https://github.com/lisajamhoury/kinectron) | [Download Kinectron App for PC](https://github.com/lisajamhoury/kinectron/releases/tag/0.0.4.6) | [Directions for installing](https://github.com/lisajamhoury/kinectron#kinectron-application-installation)
+         * [DanO's Kinectron Tutorial](https://itp.nyu.edu/classes/dance-f16/kinect/)
+      * Examples
+         * [Skeleton with Bones](http://alpha.editor.p5js.org/mimi/sketches/HJKL9Gfte)
+         * [Skeleton with 2D Shapes](http://alpha.editor.p5js.org/mimi/sketches/Hk59qfMKg)
+      * Coding Tutorials & References
+         * [Vectors in p5](http://p5js.org/reference/#/p5.Vector)
+         * [Vertex in p5](http://p5js.org/reference/#/p5/vertex) | [curveVertex in p5](http://p5js.org/reference/#/p5/curveVertex)
+         * Nature of Code: Introduction to Vectors: [Textbook](http://natureofcode.com/book/chapter-1-vectors/) | [Video](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZwSmtE13iJBcoI-r4y7iEc)
 
 ### Assignment
    * Bring a piece of clothing that changes the shape of your body to class next week.
@@ -197,7 +215,6 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 
 ### In-class
    * Show and tell clothes.
-   * Play with shadows.
    * Play with Kinect funhouse mirrors
      * The Gumby Effect: Bending body contours.
      * Prickly Pears: Visualizing the sensation of pins and needles.

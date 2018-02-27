@@ -70,7 +70,7 @@ function bodyTracked(body) {
   let footLeft = scaleJoint(body.joints[kinectron.FOOTLEFT]);
 
   fill(255, 64);
-  stroke(255);
+  noStroke();
 
   switch(mode) {
     case 0:
@@ -83,7 +83,7 @@ function bodyTracked(body) {
         vertex(footRight.x, footRight.y);
         vertex(shoulderLeft.x, shoulderLeft.y);
         vertex(hipLeft.x, hipLeft.y);
-      endShape(CLOSE);
+      endShape();
       break;
     case 1:
       // Draw curved shape
@@ -94,7 +94,7 @@ function bodyTracked(body) {
         curveVertex(head.x, head.y);
         curveVertex(footRight.x, footRight.y);
         curveVertex(shoulderLeft.x, shoulderLeft.y);
-      endShape(CLOSE);
+      endShape();
       break;
     }
 

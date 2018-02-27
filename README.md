@@ -194,8 +194,8 @@ Each topic will be introduced through paper-based drawing exercises and code exa
          * [Kinectron Library](https://github.com/lisajamhoury/kinectron) | [Download Kinectron App for PC](https://github.com/lisajamhoury/kinectron/releases/tag/0.0.4.6) | [Directions for installing](https://github.com/lisajamhoury/kinectron#kinectron-application-installation)
          * [DanO's Kinectron Tutorial](https://itp.nyu.edu/classes/dance-f16/kinect/)
       * Examples
-         * [Skeleton with Bones](http://alpha.editor.p5js.org/mimi/sketches/HJKL9Gfte)
-         * [Skeleton with 2D Shapes](http://alpha.editor.p5js.org/mimi/sketches/Hk59qfMKg)
+         * [Skeleton with Bones](http://alpha.editor.p5js.org/move.mimi/sketches/H1-kcMfdM)
+         * [Skeleton with 2D Shapes](http://alpha.editor.p5js.org/move.mimi/sketches/r1qp9ffuz)
       * Coding Tutorials & References
          * [Vectors in p5](http://p5js.org/reference/#/p5.Vector)
          * [Vertex in p5](http://p5js.org/reference/#/p5/vertex) | [curveVertex in p5](http://p5js.org/reference/#/p5/curveVertex)

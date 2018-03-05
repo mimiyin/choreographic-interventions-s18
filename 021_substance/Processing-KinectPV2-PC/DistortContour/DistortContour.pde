@@ -1,13 +1,13 @@
 /* Mimi Yin NYU/ITP
-
-Distort the body's contour.
-Use TAB to change modes.
-Use LEFT/RIGHT arrow keys to change resolution of contour polygon.
-
-Thomas Sanchez Lengeling.
+ 
+ Distort the body's contour.
+ Use TAB to change modes.
+ Use LEFT/RIGHT arrow keys to change resolution of contour polygon.
+ 
+ Thomas Sanchez Lengeling.
  http://codigogenerativo.com/
  KinectPV2, Kinect for Windows v2 library for processing
-*/
+ */
 
 // OpenCV (Computer Vision) Library
 import gab.opencv.*;
@@ -51,7 +51,7 @@ void draw() {
   PImage bodies = kinect.getBodyTrackImage();
   // Draw the tracked bodies
   //image(bodies, 0, 0);
-  
+
   // Load tracked bodies into openCV
   opencv.loadImage(bodies);
   // Make image grayscale
@@ -66,14 +66,10 @@ void draw() {
 
   // Get contours as x,y locations in tracked bodies image
   ArrayList<Contour> contours = opencv.findContours(false, false);
+  PVector mouse = new PVector(mouseX, mouseY);
 
   // If there's a contour
   if (contours.size() > 0) {
-    // Defining a circular pathway
-    float x = sin(frameCount*0.01)*cos(frameCount*0.01)*width + width/2;
-    float y = cos(frameCount*0.01)*sin(frameCount*0.02)*width + height/2;
-    PVector mover = new PVector(x, y);
-
     // For every contour
     for (Contour contour : contours) {
       // Set resolution of contour polygon
@@ -99,19 +95,16 @@ void draw() {
             switch(mode) {
             case 1:
               // Define a vector radiating from the contour point to the mouse
-              offset = PVector.sub(mover, point);
+              offset = PVector.sub(mouse, point);
               offset.setMag(250);
               point.add(offset);
               break;
             case 2:
-              // Define a vector radiating from the contour point to the corner
+              // Define a vector radiating from the contour point to the center
               PVector center = new PVector(width/2, height/2);
               offset = PVector.sub(point, center);
-              offset.setMag(500);
-              offset.add(point);
-              stroke(255, 10);
-              // Draw radiating line
-              line(point.x, point.y, offset.x, offset.y);
+              offset.setMag(random(10));
+              point.add(offset);              
               break;
             }
           }
@@ -125,7 +118,7 @@ void draw() {
     if (mode == 1) {
       noStroke();
       fill(255, 0, 0);
-      ellipse(mover.x, mover.y, 50, 50);
+      ellipse(mouse.x, mouse.y, 50, 50);
     }
   }
 

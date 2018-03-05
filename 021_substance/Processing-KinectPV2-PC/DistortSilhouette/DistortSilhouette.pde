@@ -43,6 +43,7 @@ void draw() {
 
       // Check to see if pixel is NOT grayscale-ish
       if (abs(r-g) + abs(r-b) + abs(b-g) > 1) {
+        // Get point from silhouette
         PVector point = new PVector(x, y);
         PVector end = new PVector();
         switch(mode) {

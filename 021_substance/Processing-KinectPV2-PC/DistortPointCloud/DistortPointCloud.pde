@@ -34,7 +34,7 @@ ArrayList<PVector>farthests = new ArrayList<PVector>();
 
 public void setup() {
   size(1280, 720, P3D);
-  
+
   // Initialize all the kinect stuff
   kinect = new KinectPV2(this);
   kinect.enableDepthImg(true);
@@ -48,7 +48,7 @@ public void draw() {
   pushMatrix();
   translate(width/2, height/2, 50);
   rotateY(3.1);
-  
+
   //Get the points in 3d space
   int[] depth = kinect.getRawDepthData();
 
@@ -90,9 +90,9 @@ public void draw() {
   closests.add(closestPoint);
   farthests.add(farthestPoint);
 
-  if (closests.size() > 30) closests.remove(0);
-  if (farthests.size() > 30) farthests.remove(0);
-  
+  if (closests.size() > 100) closests.remove(0);
+  if (farthests.size() > 100) farthests.remove(0);
+
   // Find the average closest point for this frame
   PVector avgClosest = new PVector();
   for (PVector c : closests) {
@@ -114,17 +114,22 @@ public void draw() {
   for (PVector point : points) {
     switch(mode) {
     case 0:
-      // Draw a point
       stroke(255);
-      // Points repel away from closest point
-      PVector repel = PVector.sub(point, avgClosest);
-      float distance = repel.mag()/range;
-      repel.setMag(100/distance);
-      point.add(repel);
-      strokeWeight(2);
+      strokeWeight(1);
       point(point.x, point.y, point.z);
       break;
     case 1:
+      // Draw a point
+      stroke(255, 10);
+      // Points repel away from closest point
+      PVector offset = PVector.sub(point, avgClosest);
+      float d = offset.mag();
+      offset.setMag(100000/d);
+      point.add(offset);
+      strokeWeight(50);
+      point(point.x, point.y, point.z);
+      break;
+    case 2:
       // Draw a line from every point to th farthest point
       stroke(255, 10);
       line(point.x, point.y, point.z, avgFarthest.x, avgFarthest.y, avgFarthest.z);
@@ -157,7 +162,7 @@ void keyPressed() {
   switch(keyCode) {
   case TAB:
     mode++;
-    mode%=2;
+    mode%=3;
     break;
   case RIGHT:
     skip++;

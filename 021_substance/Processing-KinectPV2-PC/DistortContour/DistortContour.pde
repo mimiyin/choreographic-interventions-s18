@@ -89,24 +89,26 @@ void draw() {
 
           // Scale the contour to 2x its size
           point.mult(2);
-          PVector offset = new PVector();
 
           if (mode > 0) {
+            // Define a vector radiating from the contour point to the mouse
+            PVector offset = PVector.sub(mouse, point);
+            float d = offset.mag();
+            float mag = 1;
+            // Calculate magnitude of offset in 3 different ways
             switch(mode) {
             case 1:
-              // Define a vector radiating from the contour point to the mouse
-              offset = PVector.sub(mouse, point);
-              offset.setMag(250);
-              point.add(offset);
+              mag =25000/d;
               break;
             case 2:
-              // Define a vector radiating from the contour point to the center
-              PVector center = new PVector(width/2, height/2);
-              offset = PVector.sub(point, center);
-              offset.setMag(random(10));
-              point.add(offset);              
+              mag = random(25000)/d;
               break;
             }
+            // Don't let magnitude be more than distance
+            mag = min(mag, d);
+            offset.setMag(mag);
+            // Move the point by the calculated offset
+            point.add(offset);
           }
           // Draw the point
           vertex(point.x, point.y);
@@ -114,12 +116,10 @@ void draw() {
         endShape();
       }
     }
-    // Draw the "mouse"
-    if (mode == 1) {
-      noStroke();
-      fill(255, 0, 0);
-      ellipse(mouse.x, mouse.y, 50, 50);
-    }
+    // Draw the mouse
+    noStroke();
+    fill(255, 0, 0);
+    ellipse(mouse.x, mouse.y, 50, 50);
   }
 
 

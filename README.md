@@ -219,11 +219,22 @@ Each topic will be introduced through paper-based drawing exercises and code exa
      * The Gumby Effect: Bending body contours.
      * Prickly Pears: Visualizing the sensation of pins and needles.
      * Rei Kawakubo: Bulging and pinching your insides.
+   * Resources
+      * [Processing Java and p5.js](https://github.com/processing/p5.js/wiki/Processing-transition)
+      * [Processing Java and p5.js Cheatsheet](https://docs.google.com/document/d/126TTVuJ0fl2fv1Rcp7eAE7vR4rJ5gMGnBKaeZhSjPbs/edit?usp=sharing)
+      * [Kinect PV2 Library for Processing Java on PC](https://github.com/ThomasLengeling/KinectPV2)
+      * [OpenCV Library for Processing Java](https://github.com/atduskgreg/opencv-processing)
+      * [Kinect for Mac](http://shiffman.net/p5/kinect/)
+      * Code:
+         * [Kinect2 Examples for Processing Java on PC](https://drive.google.com/open?id=1g3RyZycZVA3hD2sH1Q2rVUXjGyct9qnZ)
+         * [Moving Bezier](http://alpha.editor.p5js.org/mimi/sketches/Hkbojc0Ie)
+      * Video:
+         * [Danse Des Masques](https://www.youtube.com/watch?v=mpOdxI1owdQ)
 
 ### Assignment
    * Create a mirror that distorts or re-architects the body to move in new and unexpected ways.
    * Be clear about how you think the mirror is going to make people move.
-   * You should test your mirror thoroughly to know what it is capable of. But others will be first to demo it.
+   * You should play with your mirror thoroughly to know what it is capable of. But others will be first to demo it.
 
 ***
 

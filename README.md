@@ -230,6 +230,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
          * [Moving Bezier](http://alpha.editor.p5js.org/mimi/sketches/Hkbojc0Ie)
       * Video:
          * [Danse Des Masques](https://www.youtube.com/watch?v=mpOdxI1owdQ)
+         * [Drunk Guy In Convenience Store](https://www.youtube.com/watch?v=8M_oBYNb6UU)
 
 ### Assignment
    * Create a mirror that distorts or re-architects the body to move in new and unexpected ways.

@@ -243,6 +243,8 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 
 ### Assignment
    * Watch: Jiri Kylian | NDT : [Sweet Dreams](http://www.numeridanse.tv/en/video/1046_sweet-dreams)
+      * What are all the ways in which Kylian is working with space? How are the spaces defined?
+      * Why angular spaces? Why sharp edges? How would it be different if he used more traditional spotlights?
    * Complete [Chapter 3.0-3.3](https://docs.google.com/document/d/16GRMBthdGza-gdJMk5kWmJ7YWrDQK6pNZM6FWhlyQhw/edit?usp=sharing) of the Workbook
 ***
 

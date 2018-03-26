@@ -260,33 +260,31 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * Can we define virtual terrains with sound?
 
 ### In-class
-* Play with visual spaces.
    * Interacting with dynamic spaces.
-   * Defining spaces with bodies.
-      * Mapping 3D Kinect data to a 2D floor projection
+      * [Division](http://alpha.editor.p5js.org/mimi/sketches/SkHhftI9M)
+      * [Moving Bisect](http://alpha.editor.p5js.org/move.mimi/sketches/ryEOkt8cM)
+      * [Moving Trisect](http://alpha.editor.p5js.org/mimi/sketches/rJUlQF8qG)
+      * [Growing Circle](http://alpha.editor.p5js.org/mimi/sketches/Bk6pMtLcG)
+   * Jiri Kylian | NDT : [Sweet Dreams](http://www.numeridanse.tv/en/video/1046_sweet-dreams)
+   * Floorplans: [Residential](https://www.google.com/search?q=floor+plans&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjE18_pnIraAhUQON8KHTIbCgQQ_AUICigB&biw=1488&bih=960) v. [Cathedral](https://www.google.com/search?q=cathedral+floor+plans&source=lnms&tbm=isch&sa=X&ved=0ahUKEwibgLClnYraAhXNSt8KHaWoDMUQ_AUICigB&biw=1488&bih=960)
+   * [Kazimir Malevich](https://drive.google.com/drive/folders/0B_lnhZP0dCt8ek8wbVRzM18wcnM?usp=sharing)
+   * [Esther Ferrer](https://drive.google.com/drive/folders/1qCtTa2cDVw9DKYQksT7G_wbwT6Rzjbhf)
+   * [The Virginia Reel](https://www.youtube.com/watch?v=uBBdgcHimoM)
+
+### Assignment
+   * 
+   * Think about what you'd like to work with for your Final Project? What concepts from this class? What concepts from outside of this class?
+
+***
+
+## Week 9 Terrains
    * Interacting with sound terrains.
       * Multi-dimensional mapping to create terrains
       * Mapping linear motion to create non-linear terrains
 
-### Assignment
-   * Read pgs. 36-42 (Tempo and Duration) 147-149 (Jo Ha Kyu) of [The Viewpoints Book](https://stilluntitledproject.files.wordpress.com/2014/11/anne-bogart-and-tina-landau-the-viewpoints-book.pdf)
-   * Complete Chapter 4 of the Workbook
-
-***
-
-## Week 9 Time
-
 ### Questions
-   * What is the difference between timing and pacing?
-   * What is the timing and pacing of [Gyorgy Ligeti's Poeme Symphonique](https://www.youtube.com/watch?v=QCp7bL-AWvw) Is there rhythm?
-
-### In-class
-   * Feeling the tempo: Walking _Grave_ to _Prestissimo_
-   * Coding Pacing: Building interactive metronomes with % (modulo)
-   * Designing interactions that encourage you to play with pacing
-      * Building polyrhythms with interactive metronomes
-      * Dynamic pacing with [Zeno's Paradox](https://en.wikipedia.org/wiki/Zeno%27s_paradoxes) and Decay
-   * Discuss final projects
+   * What is the difference between a space and a terrain?
+   * Final Project thoughts: What concepts from this class? What concepts from outside of this class?
 
 ###  Assignment
    * Create an interactive space for your final. (Sensors not required.)

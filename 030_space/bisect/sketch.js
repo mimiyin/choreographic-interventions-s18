@@ -12,7 +12,7 @@ let w = 0;
 let h = 0;
 
 function setup() {
-  createCanvas(1080, windowHeight);
+  createCanvas(windowWidth, windowHeight);
   noStroke();
 }
 

@@ -272,7 +272,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
    * [The Virginia Reel](https://www.youtube.com/watch?v=uBBdgcHimoM)
 
 ### Assignment
-   * 
+   * Complete [Chapter 3.4-3.5](https://docs.google.com/document/d/16GRMBthdGza-gdJMk5kWmJ7YWrDQK6pNZM6FWhlyQhw/edit?usp=sharing) of the Workbook on Terrains
    * Think about what you'd like to work with for your Final Project? What concepts from this class? What concepts from outside of this class?
 
 ***

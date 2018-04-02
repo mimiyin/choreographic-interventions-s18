@@ -285,6 +285,10 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### Questions
    * What is the difference between a space and a terrain?
    * Final Project thoughts: What concepts from this class? What concepts from outside of this class?
+   
+### In-class
+   * Mapping Sound Terrains (Volume + mouseX): [Code](http://alpha.editor.p5js.org/move.mimi/sketches/r1CcXj8qz)
+   * Mapping Kinect Skeleton to a Pitch Terrain: [Code](http://alpha.editor.p5js.org/move.mimi/sketches/r1dcGiM9z)
 
 ###  Assignment
    * Create an interactive space for your final. (Sensors not required.)

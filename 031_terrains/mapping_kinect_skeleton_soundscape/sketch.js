@@ -23,7 +23,7 @@ let bodies = {};
 let j;
 
 // Terrain granularity / resolution
-let div = 5;
+let div = 1;
 let skip = 1;
 // Terrain colors
 let colors = [];
@@ -124,13 +124,6 @@ function draw() {
   }
 }
 
-function fadeNote(n) {
-  n.amp(0, 6/div);
-  setTimeout(function() {
-    n.stop();
-  }, 10000/div);
-}
-
 function createNewNote(c) {
   let n = new p5.Oscillator();
   n.setType('sine');
@@ -140,6 +133,13 @@ function createNewNote(c) {
   n.start();
   n.amp(1, 20/div);
   return n;
+}
+
+function fadeNote(n) {
+  n.amp(0, 6/div);
+  setTimeout(function() {
+    n.stop();
+  }, 10000/div);
 }
 
 function bodyTracked(body) {

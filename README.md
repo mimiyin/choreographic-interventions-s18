@@ -289,6 +289,9 @@ Each topic will be introduced through paper-based drawing exercises and code exa
 ### In-class
    * Mapping Sound Terrains (Volume + mouseX): [Code](http://alpha.editor.p5js.org/move.mimi/sketches/r1CcXj8qz)
    * Mapping Kinect Skeleton to a Pitch Terrain: [Code](http://alpha.editor.p5js.org/move.mimi/sketches/r1dcGiM9z)
+      * To help you understand this example:
+      * [Review Objects in JS](https://www.youtube.com/watch?v=-e5h4IGKZRY)
+      * [Video on p5.js Sound Synthesis](https://www.youtube.com/watch?v=Bk8rLzzSink)
 
 ###  Assignment
    * Create an interactive space for your final. (Sensors not required.)

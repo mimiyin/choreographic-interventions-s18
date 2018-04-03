@@ -300,7 +300,7 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * Add your own physical materials: Clip lights, fabric, garbage
       * Visuals: Code, pre-rendered, photography, video, drawings
       * Sound: Music, sound effects, computationally generated, spoken word, dialogue
-   * Create a 3-5 minute sketch of your project that connects your 5 tableaus
+   * Create a 3-5 minute sketch of your project that connects your 5 tableaus. You will perform it in class next week.
       * Consider what pathways you employ to get from tableau to tableau
    * Collect all of your materials into our shared Google Drive
    

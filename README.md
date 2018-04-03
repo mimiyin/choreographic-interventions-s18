@@ -294,7 +294,16 @@ Each topic will be introduced through paper-based drawing exercises and code exa
       * [Video on p5.js Sound Synthesis](https://www.youtube.com/watch?v=Bk8rLzzSink)
 
 ###  Assignment
-   * Create an interactive space for your final. (Sensors not required.)
+   * Create a space for next week using whatever means available to you: 
+      * Studio 1 Tech: Floor projection, wall projection, speakers
+      * Studio 1 Furniture: Barres, Chairs, Curtains, Music Stand, Piano
+      * Add your own physical materials: Clip lights, fabric, garbage
+      * Visuals: Code, pre-rendered, photography, video, drawings
+      * Sound: Music, sound effects, computationally generated, spoken word, dialogue
+   * Create a 3-5 minute sketch of your project that connects your 5 tableaus
+      * Consider what pathways you employ to get from tableau to tableau
+   * Collect all of your materials into our shared Google Drive
+   
 
 ***
 

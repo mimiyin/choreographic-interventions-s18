@@ -34,8 +34,8 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 
   // Define and create an instance of kinectron
-  //kinectron = new Kinectron("172.16.231.112");
-  kinectron = new Kinectron("192.168.0.108");
+  //kinectron = new Kinectron("172.17.78.123");
+  kinectron = new Kinectron("192.168.0.117");
 
   // Connect with application over peer
   kinectron.makeConnection();
@@ -47,9 +47,9 @@ function setup() {
   j = kinectron.HEAD;
 
   // Projection mapping scaling
-  xscl = width * 0.25;
-  yscl = -width * 0.45;
-  xshift = 0;
+  xscl = width * 0.32;
+  yscl = -width * 0.32;
+  xshift = -xscl; // Ignore first m of distance to the camera
   yshift = height / 2;
 
   // Draw terrain
@@ -70,12 +70,11 @@ function terrain() {
     //let c = noise(x*0.005);
 
     // Math to round the color to the nearest 1/div
-    let factor = div - 1;
+    let factor = max(1, div - 1);
     c = round(c * factor) / factor;
     fill(c * 255);
     rect(x, height / 2, skip, height);
 
-    // Remember this color
     colors.push(c*255);
   }
 }
@@ -91,12 +90,14 @@ function draw() {
 
     // Delete body if it's dead and move on to next body
     if (millis() - ts > 1000) {
+      body.note.stop();
       delete bodies[b];
       continue;
     }
 
     // Sample the terrain at the body's position
-    let c = colors[int(pos.x / skip)];
+    pos.x = constrain(pos.x, 0, width);
+    let c = colors[floor(pos.x/skip)];
 
     // If this is the first note, OR
     // If the body has moved more than size of a note since last note
@@ -107,7 +108,7 @@ function draw() {
       body.note = createNewNote(c);
 
       // Release current note for this body into the wild
-      if(note) fadeNote(note);
+      if(note) note.stop();
     }
 
     // Remember pos for next frame
@@ -125,13 +126,11 @@ function draw() {
 }
 
 function createNewNote(c) {
-  let n = new p5.Oscillator();
-  n.setType('sine');
-  freq = map(c, 0, 255, tonic, tonic * 2);
-  n.freq(freq);
+  let freq = map(c, 0, 255, tonic, tonic * 2);
+  let n = new p5.Oscillator(freq, 'sine');
   n.amp(0);
   n.start();
-  n.amp(1, 20/div);
+  n.amp(1, 10/div);
   return n;
 }
 

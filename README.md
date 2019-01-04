@@ -1,6 +1,6 @@
 # Choreographic Interventions Syllabus - Spring 2018
 
-- Spring 2017, Mondays, 7PM-9:55PM in Studio 1 @[111 2nd Avenue](https://goo.gl/maps/FfVoDSMxNSN2)
+- Spring 2018, Mondays, 7PM-9:55PM in Studio 1 @[111 2nd Avenue](https://goo.gl/maps/FfVoDSMxNSN2)
 - Mimi Yin, mimi.yin@nyu.edu
 - [Office Hours Signup](https://itp.nyu.edu/inwiki/Signup/Mimi)
 - [Book Time in Studio 1](https://calendar.google.com/calendar?cid=bnl1LmVkdV9oOHRnbGFjdmpuYWo4NnZ0NWZkaGU0OGI3OEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
